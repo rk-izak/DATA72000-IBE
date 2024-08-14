@@ -1,0 +1,2952 @@
+[
+  {
+    "evidence_id": 11,
+    "description": "Management consulting is the practice of helping organizations to improve performance",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 12,
+    "description": "Eenasul Fateh was a former international management consultant",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 13,
+    "description": "Management consultants help organizations to improve their performance, operating primarily through the analysis of existing organizational problems and the development of plans for improvement.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 14,
+    "description": "Eenasul Fateh was known as Aladin",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 25,
+    "description": "Alien has a score composed by Jerry Goldsmith",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 26,
+    "description": "Alien is executive produced by Ronald Shusett",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 27,
+    "description": "Alien is a film",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 38,
+    "description": "Rip Curl Pro Portugal was won by John John Florence",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 39,
+    "description": "John John Florence is an American professional surfer born on 18 October 1992",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 40,
+    "description": "John John Florence is the first Hawaiian champion",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 41,
+    "description": "John John Florence is Hawaiian",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 52,
+    "description": "Their Lives recount the stories of seven women who crossed path with Bill Clinton including Monica Lewinsky",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 53,
+    "description": "Their Lives is a book by Candice E. Jackson",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 54,
+    "description": "Their Lives is a book on The Women Targeted by the Clinton Machine",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 65,
+    "description": "Crime and Punishment was first published during 1866",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 66,
+    "description": "the 2004 motion picture \"Nina\" was based on the novel \"Crime and Punishment",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 67,
+    "description": "Crime and Punishment is published in The Russian Messenger during 1866",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 78,
+    "description": "Larnelle Harris is an American gospel singer",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 79,
+    "description": "David Huntsinger is worked with Larnelle Harris",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 90,
+    "description": "Bubblegum Alley is located in San Luis Obispo",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 91,
+    "description": "Gum Wall is covered in used chewing gum",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 92,
+    "description": "San Luis Obispo is located in California",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 93,
+    "description": "San Luis Obispo, California is a city in the U.S. state of California",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 104,
+    "description": "Catan was published in 1995",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 105,
+    "description": "Pirate's Cove was published in 2002",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 106,
+    "description": "Pirate's Cove is published in Germany in 2002",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 117,
+    "description": "Reading Post was an English local newspaper",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 118,
+    "description": "Reading Post covers Reading, Berkshire and surrounding areas",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 119,
+    "description": "Reading Post is known as the Reading Evening Post until 2009",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 120,
+    "description": "Reading Post featured the Maiwand Lion",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 121,
+    "description": "Maiwand Lion is a sculpture and war memorial in the Forbury Gardens in Reading, Berkshire",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 132,
+    "description": "Aonghus M\u00f3r lead the thirteenth-century kingdoms of the Isles",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 133,
+    "description": "Kingdom of the Isles covered  a total land area of over 8300 km2",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 144,
+    "description": "Old Trafford is an area in Greater Manchester",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 145,
+    "description": "Old Trafford, Greater Manchester is between Brooks's Bar and Trafford Bar",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 146,
+    "description": "The crossroads sites delineate Old Trafford",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 147,
+    "description": "Old Trafford has a site of two old toll gates with Brooks's Bar and Trafford Bar",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 158,
+    "description": "Timeline of the SARS outbreak",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 159,
+    "description": "Yi Guan's research helped prevent an outbreak of SARS",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 160,
+    "description": "SARS is the viral respiratory disease",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 171,
+    "description": "Wendell Berry was inducted into the Kentucky Writers Hall of Fame",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 172,
+    "description": "Dim Gray Bar Press published work by Wendell Berry",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 183,
+    "description": "Albert Ball had 44 victories",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 184,
+    "description": "Ernest Foot was the best friend of Albert Ball",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 185,
+    "description": "Albert Ball was a fighter pilot",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 196,
+    "description": "One Raffles Place was succeeded by the Bank of China Tower",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 197,
+    "description": "Bank of China Tower (Hong Kong) is located in Hong Kong",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 198,
+    "description": "One Raffles Place is one of the tallest skyscrapers in the city of Singapore and tallest in the wolrd outside North America",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 199,
+    "description": "The Bank of China Tower is one of the most recognisable skyscrapers in Central, Hong Kong",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 200,
+    "description": "One Raffles Place was at the time of its completion the tallest building in the world",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 211,
+    "description": "Salvatore Testa served for the Philadelphia crime family",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 212,
+    "description": "The Philadelphia crime family was an Italian American criminal organization",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 213,
+    "description": "Salvatore Testa is a hitman for the Philadelphia crime family",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 224,
+    "description": "Revengers Tragedy stars Diana Quick as the Duchess.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 225,
+    "description": "Diana Quick was born on 23 November 1946.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 226,
+    "description": "Revengers Tragedy is a film adaptation of the 1606 play The Revenger's Tragedy.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 227,
+    "description": "Diana Quick is an English actress.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 238,
+    "description": "Ava DuVernay was born August 24, 1972",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 239,
+    "description": "Am Rong is born in 1929",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 250,
+    "description": "The Four Seasons (band) is an American rock and pop band that became internationally successful in the 1960s and 1970s.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 251,
+    "description": "Since 1970, The Four Seasons (band) is known at Frankie Valli and the Four Seasons.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 252,
+    "description": "Hellogoodbye was formed by singer Forrest Kline in 2001.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 263,
+    "description": "Happy Death Day is an American slasher film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 264,
+    "description": "Jessica Rothe stars in Happy Death Day",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 265,
+    "description": "Happy Death Day is from the year 2017",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 266,
+    "description": "Happy Death Day is directed by Christopher B. Landon",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 277,
+    "description": "Jack Ryan is a fictional character created by Tom Clancy",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 278,
+    "description": "The Sum of All Fears is a book with Jack Ryan",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 279,
+    "description": "The Sum of All Fears was turned into a film in 2002",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 290,
+    "description": "You'll Be in My Heart is a song by Phil Collins, from the 1999 Disney animated feature \"Tarzan\"",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 291,
+    "description": "Tarzan is the 37th Disney animated feature film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 302,
+    "description": "Yunho is a South Korean actor and member of the pop duo TVXQ",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 303,
+    "description": "Heading to the Ground aired on MBC",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 304,
+    "description": "Heading to the Ground is a 2009 television series starring Yunho",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 315,
+    "description": "Kir is a popular French cocktail",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 316,
+    "description": "Hot toddy is traditionally drunk before retiring to bed",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 327,
+    "description": "The Ganymede Takeover is a 1967 science fiction novel by American writers Philip K. Dick and Ray Nelson",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 328,
+    "description": "The Man in the High Castle (1962) is written by American writer Philip K. Dick",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 329,
+    "description": "The Man in the High Castle is an alternative history novel by American writer Philip K. Dick",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 340,
+    "description": "Curt Menefee hosted with co-host Michael Strahan",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 341,
+    "description": "Curt Menefee is the host of the Fox network's NFL show",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 352,
+    "description": "Ashley Young plays for Premier League club Manchester United and the England national team",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 363,
+    "description": "Leontyne Price is an American soprano",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 364,
+    "description": "Leontyne Price was a leading artist at the Metropolitan Opera",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 375,
+    "description": "A Summer in the Cage is a 2007 documentary film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 376,
+    "description": "American Hardcore (film) is a documentary",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 387,
+    "description": "Rick and Morty (season 2) premiered with \"A Rickle in Time\"",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 388,
+    "description": "A Rickle in Time was directed by Wes Archer",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 399,
+    "description": "1st Virginia Regiment saw action at the Battle of Great Bridge",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 400,
+    "description": "The Battle of Great Bridge saw the departure of Royal Governor Lord Dunmore",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 411,
+    "description": "Raymond Ochoa voices Arlo in The Good Dinosaur",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 412,
+    "description": "The Good Dinosaur follows a young \"Apatosaurus\" named Arlo.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 423,
+    "description": "Kam Heskin played Paige Morgan in the \"The Prince and Me\" film franchise",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 424,
+    "description": "The Prince and Me is a 2004 film directed by Martha Coolidge",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 425,
+    "description": "The Prince and Me is a 2004 romantic comedy film",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 436,
+    "description": "Art Laboe is Armenian American",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 437,
+    "description": "Scout Tufankjian is Armenian-American",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 448,
+    "description": "Dario Franchitti was contracted to compete in the DTM",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 449,
+    "description": "Mercedes-AMG is headquartered in Affalterbach",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 460,
+    "description": "Kim Dae-woo debuted with directing Forbidden Quest",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 461,
+    "description": "Forbidden Quest is about a scholar during the Joseon Dynasty",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 472,
+    "description": "Magdalen College is one of the constituent colleges of the University of Oxford.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 473,
+    "description": "Waynflete Professorships include fellowships for Chemistry and pure mathematics.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 474,
+    "description": "Waynflete Professorship include Waynflete Professor of Chemistry, the Waynflete Professor of Physiology, and the Waynflete Professor of Pure Mathematics.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 485,
+    "description": "Blackie Lawless is Steven Edward Duren",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 486,
+    "description": "Inside the Electric Circus is the third album by the heavy metal band W.A.S.P.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 487,
+    "description": "Inside the Electric Circus is the first album by W.A.S.P. to feature Blackie Lawless playing guitar",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 488,
+    "description": "Steven Edward Duren is the lead singer of W.A.S.P.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 489,
+    "description": "Blackie Lawless is known as a rhythm guitarist",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 500,
+    "description": "United States Merchant Marine Academy was located in Kings Point, New York",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 501,
+    "description": "Joseph D. Stewart was appointed as Superintendent of the United States Merchant Marine Academy",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 512,
+    "description": "Associate degree is considered to be greater level than a high school diploma or GED",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 513,
+    "description": "An Associate degree is an undergraduate academic degree",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 514,
+    "description": "Southeastern Illinois College offers Associate degrees",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 515,
+    "description": "Southeastern Illinois College is located in Saline County",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 526,
+    "description": "The Venetian Macao is owned by the American Las Vegas Sands company.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 527,
+    "description": "Cotai Arena is located on the premises of The Venetian Macao.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 538,
+    "description": "Basketball at the 2015 Pacific Games is held at Port Moresby, Papua New Guinea",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 539,
+    "description": "Kiribati national basketball team finished the 2015 Pacific Games with 0-4 record",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 550,
+    "description": "Thomas Szasz is associated with Chicago Institute for Psychoanalysis.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 551,
+    "description": "Thomas Szasz is a notable psychoanalyst",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 552,
+    "description": "Thomas Szasz served most of his career at the State University of New York Upstate Medical University",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 563,
+    "description": "Cedric the Entertainer hosted the Black Movie Awards in 2005.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 564,
+    "description": "Cedric the Entertainer star in The Soul Man with its fifth and final season in 2016",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 565,
+    "description": "Cedric the Entertainer starred in The Soul Man",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 576,
+    "description": "Krzysztof Zanussi is born on 17 June 1939",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 577,
+    "description": "Thom Andersen was born in 1943",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 588,
+    "description": "Alice K\u00f6nig is Director of the Centre for the Literatures of the Roman Empire",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 589,
+    "description": "Alice K\u00f6nig lectures in Latin and Classical Studies and is Director of the Centre for the Literatures of the Roman Empire at the University of St Andrews.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 590,
+    "description": "University of St Andrews is located in St Andrews, Fife, Scotland.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 601,
+    "description": "Dundee Canal was an industrial canal in Passaic County",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 602,
+    "description": "Dundee Canal supplies hydropower and water for manufacturing",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 603,
+    "description": "Miami Canal flows from Lake Okeechobee in the U.S. state of Florida to its terminus at the Miami River",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 604,
+    "description": "Miami Canal was constructed to drain the Everglades Agricultural Area (EAA)",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 615,
+    "description": "West Lodge, Cardiff Castle is currently used as a tea room, in the centre of Cardiff, Wales.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 616,
+    "description": "The Animal Wall depicts 15 animals.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 617,
+    "description": "The West Lodge is known as the West Gate Lodge.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 618,
+    "description": "The Animal Wall runs between the West Gate Lodge and Cardiff Castle.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 629,
+    "description": "Jimmy Page is from Led Zeppelin",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 630,
+    "description": "Folk, Blues and Beyond was a primary influence on Eric Clapton",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 631,
+    "description": "Folk, Blues and Beyond is an album by Davey Graham",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 632,
+    "description": "James Patrick Page is an English musician",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 633,
+    "description": "Folk, Blues and Beyond influenced Bert Jansch, Jimmy Page and Eric Clapton",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 644,
+    "description": "Fredric Rieders had a well-known case against Michael Swango",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 645,
+    "description": "Fredric Rieders was an internationally renowned forensic toxicologist",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 646,
+    "description": "Fredric Rieders testified against Michael Swango",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 647,
+    "description": "three consecutive life terms are being served at the ADX Florence supermax prison",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 648,
+    "description": "Fredric Rieders cases included Michael Swango, a serial killer who killed as many as 60 of his patients.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 649,
+    "description": "Michael Swango was sentenced to three consecutive life terms",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 650,
+    "description": "Michael Swango was sentenced in 2000 to three consecutive life terms and is serving that sentence at the ADX Florence supermax prison near Florence, Colorado",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 651,
+    "description": "Michael Swango killed as many as 60 patients",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 662,
+    "description": "Martin Luther was a German professor of theology",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 663,
+    "description": "Luther rose was designed for Martin Luther at behest of John Frederick of Saxony in 1530",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 664,
+    "description": "Luther rose is a widely recognized symbol of Lutheranism",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 675,
+    "description": "Rahoneen saw a rising in 1916 against the British to achieve independence.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 676,
+    "description": "Roger Casement was honoured in 1905 for the Casement Report",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 677,
+    "description": "Roger Casement made efforts during World War I to gain German military aid for the 1916 Easter Rising",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 678,
+    "description": "Rahoneen became known as Casement's Fort after the capture and execution of Roger Casement for treason, sabotage and espionage against the Crown",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 679,
+    "description": "Rahoneen is the location of the execution of Roger Casement",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 680,
+    "description": "Roger Casement is described as the father twentieth-century human rights investigations",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 681,
+    "description": "McKenna's fort is a located at Rahoneen",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 682,
+    "description": "Roger Casement was an Irish nationalist",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 693,
+    "description": "Tim Armstrong is a singer/guitarist",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 694,
+    "description": "Tori Amos is a classically trained musician with a mezzo-soprano vocal range",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 695,
+    "description": "Tori Amos is an American singer-songwriter, pianist and composer.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 706,
+    "description": "Robert Cohen (writer) also wrote for \"The Wonder Years\"",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 707,
+    "description": "Joel H. Cohen is the younger brother of one-time \"Simpsons\" writer Robert Cohen",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 718,
+    "description": "Dan Schneider (TV producer) is an American actor, television and film writer, and producer.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 719,
+    "description": "Dan Schneider (TV producer) created The Adventures of Kid Danger and Captain Man and more",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 720,
+    "description": "Dan Schneider (TV producer) devoted himself to behind-the-scenes work in production",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 721,
+    "description": "Dan Schneider (TV producer) is the co-president of television production company Schneider's Bakery",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 722,
+    "description": "Helen Elizabeth Hunt is an American actress, director, and screenwriter.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 723,
+    "description": "Helen Hunt has won four Emmy Awards, four Golden Globe Awards, and two Screen Actors Guild Awards.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 724,
+    "description": "Helen Hunt won the Academy Award for Best Actress in the 1997 romantic comedy film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 735,
+    "description": "Roy Richard Scheider was an American actor and amateur boxer",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 736,
+    "description": "Nathan Bridger was played by Roy Scheider",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 737,
+    "description": "Nathan Bridger is a character",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 748,
+    "description": "Teterboro Airport is located in Bergen County, New Jersey",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 749,
+    "description": "Aviation Hall of Fame and Museum of New Jersey is located at Teterboro Airport",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 760,
+    "description": "Dregea is native to Africa and southern Asia",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 761,
+    "description": "Pterostyrax is native to eastern Asia",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 772,
+    "description": "Halld\u00f3r Laxness is a twentieth-century Icelandic writer",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 773,
+    "description": "Timothy Leary was an American psychologist",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 784,
+    "description": "Hush (1998 film) star Jessica Lange",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 785,
+    "description": "Jessica Lange is born on April 20, 1949",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 796,
+    "description": "The Human Factor (1979 film) star Richard Attenborough, Nicol Williamson, Derek Jacobi, and John Gielgud.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 797,
+    "description": "The Human Factor (1979 film) starred Nicol Williamson.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 798,
+    "description": "Derek Jacobi is an English actor and stage director.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 799,
+    "description": "The Human Factor is a 1979 British thriller film.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 810,
+    "description": "Waste Land (film) is a 2010 British-Brazilian documentary film",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 811,
+    "description": "Shikashika is a shaved ice drink",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 822,
+    "description": "Esteban Ocon is born in 17 September 1996",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 823,
+    "description": "Esteban Ocon is a French racing driver",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 824,
+    "description": "Force India VJM10 is a Formula One racing car",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 825,
+    "description": "Force India VJM10 is driven by Sergio P\u00e9rez and Esteban Ocon, who joined the team after Nico H\u00fclkenberg left",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 836,
+    "description": "Priya Sisters were singers in Carnatic music",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 837,
+    "description": "Radha Jayalakshmi were a vocalist duo in Carnatic music",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 846,
+    "description": "Arachis has 70 species",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 847,
+    "description": "Salvia has nearly 1000 species",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 848,
+    "description": "Arachis is a genus",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 849,
+    "description": "Salvia is a genus",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 860,
+    "description": "Le roi malgr\u00e9 lui is an op\u00e9ra-comique in three acts",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 861,
+    "description": "Vanessa (opera) is an American opera with three acts",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 872,
+    "description": "The Dry Tortugas are a group of desert coral islets 60 mi west of Key West",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 873,
+    "description": "USS Tortuga (LSD-46) is a \"Whidbey Island\"-class dock landing ship",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 884,
+    "description": "Johnny Pemberton appeared as Bo Thompson in the NBC sitcom Superstore",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 885,
+    "description": "Superstore is an NBC sitcom",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 886,
+    "description": "Superstore (TV series) was created by Justin Spitzer",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 897,
+    "description": "the first International Chopin Piano Competition was held in 1927",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 898,
+    "description": "The International Chopin Piano Competition is held in Warsaw, Poland",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 899,
+    "description": "Lev Oborin won the first International Chopin Piano Competition",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 910,
+    "description": "Callista is the wife of Newt Gingrich",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 911,
+    "description": "Nine Days that Changed the World is a 2010 documentary film",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 912,
+    "description": "Newt Gingrich was former Speaker of the U.S. House of Representatives prior to production",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 913,
+    "description": "Nine Days that Changed the World is produced by Newt Gingrich and his wife Callista",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 924,
+    "description": "Polar Bear (cocktail) is a mint chocolate cocktail",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 925,
+    "description": "Daiquiri is a family of cocktails",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 936,
+    "description": "Urban Cowboy has the action centers around activities at Gilley's Club",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 937,
+    "description": "Gilley's Club was a bar/honky tonk founded by country singer Mickey Gilley",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 938,
+    "description": "Urban Cowboy was John Travolta's third major acting role",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 949,
+    "description": "2013 McDonald's All-American Boys Game MVP was Aaron Gordon",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 950,
+    "description": "Aaron Gordon plays in the NBA for the Orlando Magic",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 961,
+    "description": "Martin Short created the characters, Jiminy Glick and Ed Grimley",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 962,
+    "description": "Jennifer Paige Chambers appeared in Los Angeles with Martin Short",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 963,
+    "description": "Jennifer Paige Chambers is a musical theatre performer",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 974,
+    "description": "Battle of H\u00fcrtgen Forest was fought from 19 September to 16 December 1944",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 975,
+    "description": "Battle of Pusan Perimeter was fought from August 4 to September 18, 1950",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 986,
+    "description": "Ara Babajian is an American drummer",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 987,
+    "description": "George Duran is a Venezuelan born American chef",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 998,
+    "description": "Umina Beach, New South Wales is a suburb within the Central Coast Council local government area of New South Wales, Australia",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 999,
+    "description": "Microwave Jenny consist of Tessa Nuku on vocals and Brendon Boney",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1000,
+    "description": "Microwave Jenny grew up in Umina Beach, New South Wales",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1011,
+    "description": "Stedelijk Museum Amsterdam is a museum for modern art, contemporary art, and design",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1012,
+    "description": "Stedelijk Museum Amsterdam is located in Amsterdam, Netherlands",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1013,
+    "description": "The Stedelijk Museum exhibits the work of Janne Kyttanen",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1024,
+    "description": "Pike Place Market opened in 1907",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1025,
+    "description": "Beecher's Handmade Cheese is an artisan cheesemaker and retail shop",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1026,
+    "description": "Pike Place Market is a public market",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1027,
+    "description": "Beecher's Handmade Cheese was founded in 2003",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1028,
+    "description": "Cistus is a genus of flowering plants in the rockrose family Cistaceae",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1029,
+    "description": "Stapelianthus is a genus of flowering plants in the family Asclepiadaceae",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1040,
+    "description": "Rampokan is a traditional Javan big cat fight",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1041,
+    "description": "Javan leopard is a leopard subspecies in the Indonesian island of Java",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1052,
+    "description": "John Lasseter is the Principal Creative Advisor for Walt Disney Imagineering",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1053,
+    "description": "Rick Ray is an American filmmaker",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1054,
+    "description": "Rick Ray directed 10 Questions for the Dalai Lama",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1055,
+    "description": "John Alan Lasseter is an American animator, film director, screenwriter, and film producer.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1066,
+    "description": "Richard Aldington was an English writer and poet.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1067,
+    "description": "Marge Piercy is an American poet, novelist, and social activist.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1078,
+    "description": "University of Maryland University College is located in Prince George's County, Maryland",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1079,
+    "description": "Barrie Ciliberti is a University of Maryland University College professor",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1090,
+    "description": "Modular Recordings released music of international artists Yeah Yeah Yeahs",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1101,
+    "description": "Charles Egerton (Indian Army officer) holds the rank of Field Marshal",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1102,
+    "description": "Field marshal (United Kingdom) has been the highest rank in the British Army since 1736",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1103,
+    "description": "Sir Charles Comyn Egerton was Field Marshal",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1104,
+    "description": "Charles Egerton (Indian Army officer) is Sir Charles Comyn Egerton",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1115,
+    "description": "Tampa Bay Lightning have one Stanley Cup championship from 2003\u201304",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1116,
+    "description": "Kaspars Asta\u0161enko is drafted by the Tampa Bay Lightning in the 1999 NHL Entry Draft",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1117,
+    "description": "Tampa Bay Lightning are a professional ice hockey team",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1118,
+    "description": "Tampa Bay Lightning is a member of the Atlantic Division of the Eastern Conference of the National Hockey League (NHL)",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1129,
+    "description": "Buddha's delight is called Lu\u00f3h\u00e0n c\u00e0i",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1130,
+    "description": "Dacryopinax spathularia is included in Buddha's delight",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1141,
+    "description": "Tom Hiddleston played role as Cassio in Othello",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1142,
+    "description": "Tom Hiddleston is nominated for the Laurence Olivier Award for Best Newcomer in a Play for his role in Othello",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1143,
+    "description": "Only Lovers Left Alive stars Tom Hiddleston",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1154,
+    "description": "Kim Warwick win three singles titles and 26 doubles",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1155,
+    "description": "Jorge Lozano win nine doubles titles no singles titles",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1166,
+    "description": "Operation Lighthouse (1937) is given to the failed experimental launch by Wernher von Braun and Walter Dornberger",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1167,
+    "description": "Walter Dornberger was born on 6 September 1895",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1178,
+    "description": "Shelly Hruska is from Winnipeg",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1179,
+    "description": "Winnipeg lies at the confluence of the Red and Assiniboine Rivers",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1180,
+    "description": "Shelly Hruska is from Winnipeg, Manitoba",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1191,
+    "description": "The Secret of Kells is a French-Irish animated fantasy film",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1192,
+    "description": "Astro Boy (film) is a Hongkong-American animated film",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1193,
+    "description": "Astro Boy (film) was produced by Imagi Animation Studios",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1204,
+    "description": "Stephen Graham starred in This Is England",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1205,
+    "description": "This Is England is a 2006 film directed by Shane Meadows",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1216,
+    "description": "Ryan Tedder is a songwriter",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1217,
+    "description": "Leona Lewis has won the third series of The X Factor",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1218,
+    "description": "Ryan Tedder is producer of Leona Lewis",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1229,
+    "description": "Hiroyuki Ito created Final Fantasy XII",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1230,
+    "description": "Final Fantasy XII introduced a customizable \"gambit\" system",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1231,
+    "description": "Hiroyuki Ito is the director of Final Fantasy VI,  Final Fantasy IX, and Final Fantasy XII",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1242,
+    "description": "Gregory John \"Greg\" Puciato is the lead singer of The Dillinger Escape Plan, The Black Queen, and the metal supergroup Killer Be Killed",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1243,
+    "description": "Greg Puciato was known for his reckless live performances, wide vocal range, and outspoken views",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1244,
+    "description": "Syd Barrett is a founder member of the band Pink Floyd",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1255,
+    "description": "Josh Charles is known for the roles of Dan Rydell and Will Gardner",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1256,
+    "description": "Dead Poets Society stars Robin Williams",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1257,
+    "description": "Dead Poets Society is set in 1959 at a Vermont boarding school",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1258,
+    "description": "Josh Charles starred in Dead Poets Society",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1259,
+    "description": "Josh Charles played as Knox Overstreet",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1260,
+    "description": "Dead Poets Society was set in 1959 at the fictional elite conservative Vermont boarding school Welton Academy",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1261,
+    "description": "Josh Charles is Joshua Aaron Charles",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1262,
+    "description": "Dead Poets Society is a 1989 American drama film",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1263,
+    "description": "Dead Poets Society tell the story of an English teacher",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1264,
+    "description": "Knox Overstreet is a character in Dead Poets Society",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1269,
+    "description": "Kete Krachi is a town in the Volta Region of Ghana",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1270,
+    "description": "Krachi West District is one of the twenty-five (25) districts in the Volta Region",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1281,
+    "description": "Tryon D. Lewis is an attorney in Odessa, Texas",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1282,
+    "description": "Odessa, Texas is located primarily in Ector County",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1293,
+    "description": "Mundo Perdido was influenced by the great metropolis of Teotihuacan",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1294,
+    "description": "Teotihuacan is located 40 km northeast of Mexico City",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1305,
+    "description": "Pasek and Paul are an American songwriting duo and composing team for musical theater, films, and television",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1306,
+    "description": "Rewrite This Story was written by Pasek and Paul",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1317,
+    "description": "George Clooney was born on May 6, 1961",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1318,
+    "description": "Johan Leysen was born on 19 February 1950",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1329,
+    "description": "\u00c6lfgifu of Exeter was a saint",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1330,
+    "description": "\u00c6lfgifu of Shaftesbury is known as Saint Elgiva",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1341,
+    "description": "Princess Elizabeth is the mother of Princess Anne",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1342,
+    "description": "Middleton Grange Shopping Centre was opened in 1970 by Princess Anne",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1353,
+    "description": "Bo\u0159e\u0148 is similar to a tower in Wyoming called Devils Tower",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1354,
+    "description": "Devils Tower is 5,112 feet above sea level.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1365,
+    "description": "Faroe Islands is located 200 mi north-northwest of Scotland",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1366,
+    "description": "Abraham L\u00f8kin was born in the Faroe Islands",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1367,
+    "description": "Faroe Islands is an archipelago between the Norwegian Sea and the North Atlantic, 200 mi north-northwest of Scotland",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1378,
+    "description": "Bill Pullman is born on December 17, 1953",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1379,
+    "description": "While You Were Sleeping (film) stars Bill Pullman as Jack",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1390,
+    "description": "Lever Brothers merged with Margarine Unie",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1391,
+    "description": "Unilever Indonesia operated a soap factory at Angke, Jakarta",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1402,
+    "description": "Hacking Democracy is 2006 documentary film",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1403,
+    "description": "The Memory of Justice is a 1976 documentary film",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1414,
+    "description": "Eucritta melanolimnetes is the name for the true creature from the Black Lagoon",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1415,
+    "description": "Eucritta melanolimnetes is an extinct stem-tetrapod",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1416,
+    "description": "Creature from the Black Lagoon is a 1954 American black-and-white 3D monster horror film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1427,
+    "description": "Mezzanine (album) is the first album produced by Neil Davidge and the group",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1428,
+    "description": "Risingson is a song by Massive Attack",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1429,
+    "description": "Mezzanine (album) is by English trip hop group Massive Attack",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1430,
+    "description": "Risingson is the first single on their third album \"Mezzanine\".",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1441,
+    "description": "Prince lived from June 7, 1958 \u2013 April 21, 2016",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1442,
+    "description": "Prince sold over 100 million records",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1443,
+    "description": "Born 2 B.R.E.E.D. was co-written by Prince",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1444,
+    "description": "Prince (musician) was an American singer-songwriter",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1455,
+    "description": "One More River is based on a novel by John Galsworthy",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1456,
+    "description": "John Galsworthy won the Nobel Prize in Literature in 1932",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1457,
+    "description": "One More River is a 1934 American drama film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1468,
+    "description": "Guadalcanal Campaign also known as Operation Watchtower",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1469,
+    "description": "Joe Foss received the Medal of Honor for his role during the Guadalcanal Campaign",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1480,
+    "description": "Finding Chandra was about an affair between the victim and Congressman Gary Condit",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1481,
+    "description": "Gary Condit holds a B.B.A. from the USC Marshall School of Business",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1492,
+    "description": "former NFL football player Rosey Grier has regular appearances in Daniel Boone (1964 TV series) as Gabe Cooper",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1493,
+    "description": "Rosey Grier was a notable college football player for The Pennsylvania State University",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1504,
+    "description": "Thomas Henry Moray was an inventor from Salt Lake City, Utah",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1505,
+    "description": "Thomas Henry Moray followed the work on nuclear batteries done by Henry Moseley",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1506,
+    "description": "Henry Moseley was an English physicist",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1517,
+    "description": "The Cyclones is coached by Steve Prohm, who was in his 1st season",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1518,
+    "description": "2015\u201316 Iona Gaels men's basketball team is led by sixth year head coach Tim Cluess",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1529,
+    "description": "2012 Summer Olympics is governed by the International Olympic Committee",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1530,
+    "description": "Ivan Trajkovi\u010d qualify for the 2012 Summer Olympics in the +80 kg category",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1541,
+    "description": "Jack Lowden is a a Scottish actor",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1542,
+    "description": "Jack Lowden is a Scottish stage, television, and film actor.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1543,
+    "description": "Tommy's Honour father and son are portrayed by Peter Mullan and Jack Lowden.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1554,
+    "description": "Richard Kuklinski was a mob assassin",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1555,
+    "description": "Richard Kuklinski was an American contract killer and serial killer",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1556,
+    "description": "Philip Carlo died of the disease in 2010",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1557,
+    "description": "Philip Carlo wrote biography of Richard Kuklinski",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1558,
+    "description": "amyotrophic lateral sclerosis is known as Lou Gehrig's Disease",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1569,
+    "description": "Ole Einar Bj\u00f8rndalen was born on 27 January 1974",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1570,
+    "description": "Ole Einar Bj\u00f8rndalen is 2009\u201310 Biathlon World Cup \u2013 Pursuit Men Defending titlist",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1581,
+    "description": "Paul Maynard became rail minister after PM Theresa May entered office",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1582,
+    "description": "Theresa May served as Prime Minister since 2016",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1583,
+    "description": "Paul Maynard became rail minister in July 2016 after new PM Theresa May entered office",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1594,
+    "description": "Prol\u00f3gica CP-400 is a personal computer",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1595,
+    "description": "a Brazilian company brought Prol\u00f3gica CP-400 as a new equipment for Personal Computer",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1596,
+    "description": "Atari ST is the first personal computer",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1597,
+    "description": "CP stands for shorten of Personal Computer",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1608,
+    "description": "Jonas Tilly study at University of California",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1609,
+    "description": "University of California is part of the state's three-system public higher education plan",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1620,
+    "description": "6.5\u00d755mm was developed by the United Kingdoms of Sweden and Norway",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1621,
+    "description": "Norway adopted the Krag\u2013J\u00f8rgensen rifle",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1622,
+    "description": "5.6\u00d761mm VHSE is a rifle cartridge",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1623,
+    "description": "5.6\u00d761mm VHSE is based on the 6.5\u00d755mm Swedish",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1624,
+    "description": "5.6\u00d761mm VHSE was introduced in Germany in 1937",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1625,
+    "description": "Sweden adopted a Mauser rifle design",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1636,
+    "description": "Almost Sunrise is a 2016 American documentary film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1637,
+    "description": "Hail! Hail! Rock 'n' Roll is a 1987 documentary film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1648,
+    "description": "Fort Worth Zoo is one of top zoos in the South by Southern Living\" Reader's Choice Awards",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1649,
+    "description": "Southern Living is published in Birmingham, Alabama",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1650,
+    "description": "Fort Worth Zoo was rated as a top zoo by Southern Living",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1661,
+    "description": "Pandikona are dogs",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1662,
+    "description": "Berger Blanc Suisse are dogs",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1663,
+    "description": "Pandikona is a primitive-type hunting dog",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1664,
+    "description": "PandiKona dogs need very little care",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1675,
+    "description": "Wildcat Brook flows south Jackson in Carroll County",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1676,
+    "description": "Carroll County, New Hampshire has a population of 47,818",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1687,
+    "description": "In Her Shoes (film) is based on the novel of the same name by Jennifer Weiner",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1688,
+    "description": "In Her Shoes (film) is a 2005 American comedy-drama film",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1699,
+    "description": "The Visit is an American horror film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1700,
+    "description": "Olivia DeJonge plays Becca in The Visit",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1701,
+    "description": "Olivia DeJonge is an Australian actress",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1702,
+    "description": "The Visit is directed by M. Night Shyamalan",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1713,
+    "description": "The Bears and I came out in 1974",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1714,
+    "description": "The Wind in the Willows was published in 1908",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1725,
+    "description": "Orange Is the New Black was created by Jenji Kohan",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1726,
+    "description": "Lesbian Request Denied is the third episode of the first season of Orange Is the New Black",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1737,
+    "description": "Faena Arts Center was founded by Alan Faena",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1738,
+    "description": "Alan Faena founded Via Vai in 1985",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1739,
+    "description": "Via Vai is a fashion label",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1750,
+    "description": "Richard Thorpe is known for his long career at Metro-Goldwyn-Mayer",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1751,
+    "description": "Secret of the Chateau is a 1934 American crime film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1752,
+    "description": "Secret of the Chateau is directed by Richard Thorpe",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1763,
+    "description": "Robbie Gould was born on December 6, 1981",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1764,
+    "description": "Chris Gould was born on December 10, 1985",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1775,
+    "description": "Joe Ford played for Manchester United",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1776,
+    "description": "Manchester United F.C. is based in Old Trafford",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1787,
+    "description": "SM Megamall is located in the Ortigas business district of Metro Manila",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1788,
+    "description": "Robinsons Galleria is located near SM Megamall",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1789,
+    "description": "SM Megamall is the second largest shopping mall in the country and the fourth in the world.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1800,
+    "description": "Cigar store Indian is also known as a wooden indian",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1801,
+    "description": "wooden Indian is an advertisement figure used to represent tobacconists",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1802,
+    "description": "Tobacconist also called a tobacco shop or smoke shop is a retailer of tobacco products",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1803,
+    "description": "wooden Indian is three-dimensional wooden sculptures",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1814,
+    "description": "Benjamin Burnley best known as the founder and frontman of the American rock band Breaking Benjamin",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1815,
+    "description": "Yannis Philippakis is guitarist of the British indie rock band Foals",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1826,
+    "description": "Zixing is a county-level city",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1827,
+    "description": "Jingzhou is a prefecture-level city",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1838,
+    "description": "Stanley Kwan is a Hong Kong Second Wave Hong Kong film director",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1839,
+    "description": "Ken Hughes is a film director",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1840,
+    "description": "Ken Hughes was a British film director",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1851,
+    "description": "William Todd Field born February 24, 1964",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1852,
+    "description": "Aaron Katz (filmmaker) born October 29, 1981",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1863,
+    "description": "Clarembald was a medieval Benedictine monk and abbot-elect of St Augustine's Abbey",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1864,
+    "description": "St Augustine's Abbey was founded in 598",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1865,
+    "description": "St Augustine's Abbey was founded in 1538",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1876,
+    "description": "North Midland Divisional Engineers component unit saw action in the Battle of France during World War II",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1877,
+    "description": "In the Battle of France German forces defeated Allied forces in six weeks",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1878,
+    "description": "Battle of France was six weeks from 10 May 1940",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1889,
+    "description": "The ABC Comedy Hour has the musical \"Hellzapoppin\"",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1890,
+    "description": "Ronnie Schell has his 1960s television role as Duke Slater in Gomer Pyle, U.S.M.C.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1891,
+    "description": "The ABC Comedy Hour starred Jack Cassidy and Ronnie Schell",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1902,
+    "description": "Jayaprakash Narayan was posthumously awarded the Bharat Ratna",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1903,
+    "description": "Bharat Ratna is the highest civilian award of the Republic of India",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1914,
+    "description": "Talaiasi Labalaba served in the Royal Ulster Rifles",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1915,
+    "description": "Royal Irish Rifles became Royal Ulster Rifles",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1926,
+    "description": "West Side Story (film) won 10 Academy Awards",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1927,
+    "description": "Jimmy Bryant providing the singing voice of Tony in West Side Story",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1938,
+    "description": "Ormskirk railway station is 12+3/4 mi northeast of Liverpool, on the Ormskirk branch line",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1939,
+    "description": "Aughton Park railway station is on the Ormskirk branch of the Northern Line",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1950,
+    "description": "Prince (musician) was inducted into the Rock and Roll Hall of Fame",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1951,
+    "description": "Patty Jenkins is an American film director and screenwriter.",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1962,
+    "description": "Meomi Design is a Canadian/American design studio",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1963,
+    "description": "The Octonauts is a British children's television series",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1964,
+    "description": "The Octonauts were made into a TV series for the BBC channel CBeebies",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 1975,
+    "description": "Deer Lodge County, Montana population as of the 2010 census is 9,298",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1976,
+    "description": "Warm Springs, Montana is an unincorporated community in Deer Lodge County, Montana, United States",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1977,
+    "description": "Montana State Hospital was founded in 1877",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1978,
+    "description": "Montana State Hospital is the only long term psychiatric hospital operated by the state of Montana",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1979,
+    "description": "Warm Springs, Montana is the site of Montana State Hospital, the only long term psychiatric hospital in Montana",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1980,
+    "description": "Deer Lodge County, Montana is a county in the U.S. state of Montana",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1991,
+    "description": "Ryan McLaren is born on 9 February 1983",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 1992,
+    "description": "Adrian Peter McLaren is born 21 April 1980",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2003,
+    "description": "G\u00f6tterd\u00e4mmerung is the last in Richard Wagner's cycle of four music dramas",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2004,
+    "description": "Dafne is considered as opera",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2015,
+    "description": "Fizz (cocktail) defining features are an acidic juice such as lemon or lime",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2016,
+    "description": "Painkiller (cocktail) with 4 parts pineapple juice",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2017,
+    "description": "Painkiller (cocktail) contains pineapple and orange juices",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2028,
+    "description": "Wojtek (bear) was enlisted as a soldier with the rank of private",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2029,
+    "description": "Wojtek (bear) was promoted in the Polish II Corps to corporal",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2030,
+    "description": "Wojtek Memorial Trust celebrates the life of Wojtek, \"the Soldier Bear\"",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2031,
+    "description": "Wojtek was a bear purchasded by Polish soldiers",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2032,
+    "description": "Wojtek (bear) was a Syrian brown bear",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2043,
+    "description": "Event Horizon (film) is a 1997 Horror Film directed by Paul W. S. Anderson",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2044,
+    "description": "Event Horizon (film) stars Laurence Fishburne",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2045,
+    "description": "Joely Richardson is an actress",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2046,
+    "description": "Event Horizon (film) is a 1997 British-American science fiction horror film",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2047,
+    "description": "Joely Richardson plays Julia McNamara in the series Nip/Tuck",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2058,
+    "description": "Pre's Trail is named after Steve Prefontaine",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2059,
+    "description": "Steve Prefontaine died in an automobile accident",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2060,
+    "description": "Pre's Trail is named after University of Oregon athlete Steve Prefontaine",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2071,
+    "description": "Per Mertesacker has been nicknamed \"the BFG\"",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2072,
+    "description": "The BFG is a 1982 children's book",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2073,
+    "description": "Per Mertesacker is a German professional footballer",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2084,
+    "description": "Long John Silver's derived name from the novel Treasure Island",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2085,
+    "description": "Treasure Island is an adventure novel",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2086,
+    "description": "Long John Silver's LLC specializes in seafood",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2087,
+    "description": "Long John Silver's is a fast-food restaurant",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2088,
+    "description": "Long John Silver's is an American fast-food restaurant chain specializing in seafood",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2099,
+    "description": "Heinrich Marschner was the most important German opera composer between Weber and Wagner",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2100,
+    "description": "Carl Maria von Weber was one of the first significant composers of the Romantic school",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2101,
+    "description": "Heinrich Marschner is the most important composer after Weber",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2112,
+    "description": "Alan Garner is rooted in his native county Cheshire in North West England",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2113,
+    "description": "The Stone Book Quartet is Set in eastern Cheshire",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2124,
+    "description": "Bon Jovi is a rock band from Sayreville, New Jersey",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2125,
+    "description": "Bon Jovi was formed in 1983",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2136,
+    "description": "Khunyang Chhish is a mountain",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2137,
+    "description": "Khunyang Chhish is the second-highest mountain in the Hispar Muztagh",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2138,
+    "description": "Ismoil Somoni Peak is the highest mountain in Tajikistan",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2139,
+    "description": "Ismoil Somoni Peak is named after Ismail Samani",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2150,
+    "description": "Erie Railroad Co. v. Tompkins is a landmark decision by the Supreme Court of the United States",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2151,
+    "description": "One, Inc. v. Olesen is a landmark United States Supreme Court decision",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2162,
+    "description": "George Albert Smith was an American religious leader and eighth president of the Church of Jesus Christ of Latter-day Saints",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2163,
+    "description": "Wong Jing is a Hong Kong film director, producer, actor, presenter, and screenwriter",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2174,
+    "description": "Cat Power is an American singer-songwriter, musician, occasional actress, and model",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2175,
+    "description": "Estrojam's Decibelle Music and Culture Festival has been headlined by Cat Power",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2186,
+    "description": "Dungeons & Dragons Basic Set first edition is written by J. Eric Holmes",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2187,
+    "description": "David Cook (game designer) is best known for his work TSR, Inc.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2188,
+    "description": "Dungeons & Dragons Basic Set is a set of rulebooks for the \"Dungeons &amp; Dragons",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2189,
+    "description": "Dungeons & Dragons Basic Set later edition were edited by Tom Moldvay, Dave Cook, and Frank Mentzer.",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2200,
+    "description": "Rudolf Schwarzkogler is closely associated with the Viennese Actionism group",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2201,
+    "description": "Howard Zieff was an American director, television commercial director, and advertising photographer",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2202,
+    "description": "Howard Zieff lived 21 October 1927  to 22 February 2009",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2203,
+    "description": "Rudolf Schwarzkogler lived 13 November 1940 to 20 June 1969",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2204,
+    "description": "Viennese Actionism group includes G\u00fcnter Brus, Otto M\u00fchl, and Hermann Nitsch",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2205,
+    "description": "Rudolf Schwarzkogler was an Austrian performance artist",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2216,
+    "description": "Chaoyang District, Shantou is a district in the municipality of Shantou, Guangdong Province, China",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2217,
+    "description": "Daqing is a prefecture-level city in the west of Heilongjiang province, People's Republic of China",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2218,
+    "description": "Daqing is known as the Oil Capital of China",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2229,
+    "description": "Hund's rules is the first rule of chemistry",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2230,
+    "description": "Friedrich Hermann Hund is known for work on atoms and molecules",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2231,
+    "description": "Hund's rules were formulated by German physicist Friedrich Hund around 1927",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2242,
+    "description": "Borzoi is a member of the sighthound family",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2243,
+    "description": "Rampur Greyhound is a large member of the sighthound family",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2254,
+    "description": "The Golden Compass (film) is based on \"Northern Lights\"",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2255,
+    "description": "Charlie Rowe played as Billy Costa in The Golden Compass",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2256,
+    "description": "The Golden Compass (film) is a 2007 British-American fantasy adventure film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2257,
+    "description": "Northern Lights is the first novel in Philip Pullman's trilogy \"His Dark Materials\"",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2268,
+    "description": "The Jackie Thomas Show starred in the fifth season of her comedy \"Roseanne\"",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2269,
+    "description": "The Jackie Thomas Show creator Roseanne Arnold",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2270,
+    "description": "The show ran for nine seasons from 1988 to 1997",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2271,
+    "description": "Roseanne Barr gained fame in Roseanne",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2272,
+    "description": "Roseanne Barr stand-up comedy Roseanne",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2273,
+    "description": "The Jackie Thomas Show has an American sitcom",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2274,
+    "description": "Dandong is a prefecture-level city in China",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2275,
+    "description": "Hotan is an autonomous region in western China",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2276,
+    "description": "Hotan is a oasis town in southwestern Xinjiang in China",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2287,
+    "description": "Brandon, Mississippi had population of 21,705 at the 2010 census",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2288,
+    "description": "Deryl Dedmon of Brandon",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2289,
+    "description": "Brandon is a city in Mississippi",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2300,
+    "description": "Clothes for a Summer Hotel is a 1980 play by Tennessee Williams",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2301,
+    "description": "Geraldine Page was an eight-time Academy Award nominee",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2302,
+    "description": "Clothes for a Summer Hotel had Geraldine Page in mind to play Zelda from the start",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2313,
+    "description": "Mike Shinoda is born February 11, 1977",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2314,
+    "description": "Teruhiko is born on June 8, 1971",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2325,
+    "description": "Christian Whitehead was the project lead on Sonic Mania",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2326,
+    "description": "Sonic Mania is a side-scrolling platform game",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2337,
+    "description": "Elswyth Thane is an American romance novelist",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2338,
+    "description": "Ash Lieb is an Australian artist",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2349,
+    "description": "1962 German Grand Prix had second by John Surtees",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2350,
+    "description": "John Surtees founded the Surtees Racing Organisation team",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2361,
+    "description": "Robert Lutyens joined Marks & Spencer in 1934",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2362,
+    "description": "Robert Lutyens designed the interiors of the homes of several of the directors of Marks & Spencer",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2363,
+    "description": "Marks & Spencer is a company headquartered in the City of Westminster, London",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2364,
+    "description": "Robert Lutyens was an English interior designer",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2365,
+    "description": "Marks & Spencer is a major British multinational retailer",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2366,
+    "description": "Robert Lutyens joined the board of the Marks & Spencer",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2377,
+    "description": "2012 Cleveland Browns season was the team's 64th season",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2378,
+    "description": "2012 Cleveland Browns season was the third season under team president Mike Holmgren",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2379,
+    "description": "Mike Holmgren serves as president of the Cleveland Browns of the National Football League",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2380,
+    "description": "Mike Holmgren is a former American football coach and executive",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2391,
+    "description": "Macalester College is founded in 1874",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2392,
+    "description": "Macalester College is a private, coeducational liberal arts college",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2393,
+    "description": "Minnesota State High School Mathematics League is founded by Macalester College professor Wayne Roberts",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2394,
+    "description": "Wayne Roberts is a professor at Macalester College",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2405,
+    "description": "Georgetown is a historic neighborhood",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2406,
+    "description": "Georgetown is located along the Potomac River",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2407,
+    "description": "Kavanaugh's (n\u00e9e Estes) wedding ceremony was in Georgetown",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2418,
+    "description": "New York Botanical Garden is located in the Bronx",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2419,
+    "description": "Mycologia is published by New York Botanical Garden",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2420,
+    "description": "Mycologia is a peer-reviewed scientific journal",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2421,
+    "description": "Mycologia was first published in 1909",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2432,
+    "description": "Manchester, New Hampshire is located in Hillsborough County",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2433,
+    "description": "WLMW is licensed to Manchester, New Hampshire",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2434,
+    "description": "Manchester is a largest city",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2435,
+    "description": "Manchester is located in Hillsborough County along the banks of Merrimack River",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2446,
+    "description": "Mr. Nice Guy (1997 film) is a Hong Kong action film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2447,
+    "description": "Baadshah (1999 film) is a 1999 Indian action comedy film",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2448,
+    "description": "Mr. Nice Guy (1997 film) stars Richard Norton and Jackie Chan",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2449,
+    "description": "Baadshah (1999 film) is inspired from Mr Nice Guy",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2460,
+    "description": "Diamond Rio was founded in 1982",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2461,
+    "description": "Diamond Rio is an American country and Christian country music band",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2462,
+    "description": "Wrinkles (song) was recorded by Diamond Rio",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2473,
+    "description": "Northwestern University is a private research university",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2474,
+    "description": "Middlebury College is a private liberal arts college",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2485,
+    "description": "Philip II of Spain was lord of the Seventeen Provinces of the Netherlands from 1555",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2486,
+    "description": "Diego F\u00e9lix of Austria was the fourth son of Philip II of Spain",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2497,
+    "description": "1980 Welsh Cup Final featured Newport County and Shrewsbury Town",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2498,
+    "description": "Newport County A.F.C. is a football club based in South Wales",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2509,
+    "description": "The Cayuga\u2013Seneca Canal is in New York",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2510,
+    "description": "Edison Sault Power Canal is in Michigan",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2511,
+    "description": "Edison Sault Power Canal supplies the Saint Marys Falls Hydropower Plant",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2512,
+    "description": "Cayuga\u2013Seneca Canal is now part of the New York State Canal System",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2523,
+    "description": "Linda McCartney was the wife of a Beatle",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2524,
+    "description": "Alison Castle was book editor of \"Linda McCartney's Life in Photography\"",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2535,
+    "description": "BioShock (series) have sold more than 25 million copies",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2536,
+    "description": "Big Daddy (BioShock) is a fictional character in the game series BioShock",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2547,
+    "description": "The theme song for Range Busters was Home on the Range",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2548,
+    "description": "Home on the Range was written by Dr. Brewster M. Higley",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2549,
+    "description": "Range Busters was a film series of 24 Westerns",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2550,
+    "description": "Home on the Range is a classic western folk song",
+    "model_used": "OpenAI"
+  },
+  {
+    "evidence_id": 2561,
+    "description": "Open Heart (TV series) is a 2015 American-Canadian mystery-drama television series",
+    "model_used": "Anthropic"
+  },
+  {
+    "evidence_id": 2562,
+    "description": "Dylan Everett starred in Open Heart",
+    "model_used": "Anthropic"
+  }
+]
