@@ -1,0 +1,200 @@
+{
+  "calculate_bertscore": [
+    {
+      "candidate": "EGFR mutations predict response to EGFR TKIs in lung cancer.",
+      "reference": "EGFR mutations indicate sensitivity to EGFR tyrosine kinase inhibitors in lung cancer.",
+      "expected_score": "Highest"
+    },
+    {
+      "candidate": "Some genetic changes in lung cancer can guide treatment choices.",
+      "reference": "EGFR mutations indicate sensitivity to EGFR tyrosine kinase inhibitors in lung cancer.",
+      "expected_score": "Medium"
+    },
+    {
+      "candidate": "Chemotherapy is a common treatment for many types of cancer.",
+      "reference": "EGFR mutations indicate sensitivity to EGFR tyrosine kinase inhibitors in lung cancer.",
+      "expected_score": "Lowest"
+    }
+  ],
+  "fluency_score": [
+    {
+      "generated_explanation": "BRCA mutations increase cancer risk by impairing DNA repair. This makes cells more susceptible to genomic instability and malignant transformation.",
+      "expected_score": "High"
+    },
+    {
+      "generated_explanation": "BRCA mutations make cancer more likely. They affect how cells fix DNA. This can lead to cancer.",
+      "expected_score": "Medium"
+    },
+    {
+      "generated_explanation": "BRCA bad. DNA break. Cancer happen.",
+      "expected_score": "Low"
+    }
+  ],
+  "semantic_similarity": [
+    {
+      "text1": "HER2 amplification is a predictive biomarker for trastuzumab in breast cancer.",
+      "text2": "HER2 overexpression indicates likely response to HER2-targeted therapies in breast cancer patients.",
+      "expected_score": "Highest"
+    },
+    {
+      "text1": "HER2 amplification is a predictive biomarker for trastuzumab in breast cancer.",
+      "text2": "Some genetic changes in breast cancer can help guide treatment decisions.",
+      "expected_score": "Medium"
+    },
+    {
+      "text1": "HER2 amplification is a predictive biomarker for trastuzumab in breast cancer.",
+      "text2": "Regular mammograms are important for early detection of breast cancer.",
+      "expected_score": "Lowest"
+    }
+  ],
+  "nli_score": [
+    {
+      "premise": "KRAS mutations are associated with resistance to EGFR inhibitors in colorectal cancer.",
+      "hypothesis": "Patients with KRAS-mutant colorectal cancer are unlikely to benefit from cetuximab treatment.",
+      "expected_score": "Highest"
+    },
+    {
+      "premise": "KRAS mutations are associated with resistance to EGFR inhibitors in colorectal cancer.",
+      "hypothesis": "Genetic testing is important in colorectal cancer treatment planning.",
+      "expected_score": "Medium"
+    },
+    {
+      "premise": "KRAS mutations are associated with resistance to EGFR inhibitors in colorectal cancer.",
+      "hypothesis": "All colorectal cancer patients should receive EGFR inhibitors as first-line treatment.",
+      "expected_score": "Lowest"
+    }
+  ],
+  "explanation_accuracy_score": [
+    {
+      "generated_explanation": "PD-L1 expression correlates with response to PD-1/PD-L1 inhibitors.",
+      "golden_explanation": "PD-L1 expression levels are associated with increased likelihood of response to PD-1/PD-L1 checkpoint inhibitors.",
+      "expected_score": "Highest"
+    },
+    {
+      "generated_explanation": "PD-L1 is a protein that affects how some cancer treatments work.",
+      "golden_explanation": "PD-L1 expression levels are associated with increased likelihood of response to PD-1/PD-L1 checkpoint inhibitors.",
+      "expected_score": "Medium"
+    },
+    {
+      "generated_explanation": "Chemotherapy kills rapidly dividing cells.",
+      "golden_explanation": "PD-L1 expression levels are associated with increased likelihood of response to PD-1/PD-L1 checkpoint inhibitors.",
+      "expected_score": "Lowest"
+    }
+  ],
+  "claim_support_score": [
+    {
+      "claim": "ALK inhibitors are effective in ALK-rearranged NSCLC.",
+      "generated_explanation": "ALK inhibitors specifically target the aberrant ALK fusion proteins, leading to tumor cell death in ALK-rearranged NSCLC.",
+      "expected_score": "Highest"
+    },
+    {
+      "claim": "ALK inhibitors are effective in ALK-rearranged NSCLC.",
+      "generated_explanation": "Targeted therapies can be effective in some types of lung cancer with specific genetic changes.",
+      "expected_score": "Medium"
+    },
+    {
+      "claim": "ALK inhibitors are effective in ALK-rearranged NSCLC.",
+      "generated_explanation": "Smoking is a major risk factor for developing lung cancer.",
+      "expected_score": "Lowest"
+    }
+  ],
+  "evidence_selection_score": [
+    {
+      "predicted_evidence_ids": [1, 2, 3, 4],
+      "golden_evidence_ids": [1, 2, 3, 4],
+      "expected_score": "Highest"
+    },
+    {
+      "predicted_evidence_ids": [1, 2, 3, 5],
+      "golden_evidence_ids": [1, 2, 3, 4],
+      "expected_score": "Medium"
+    },
+    {
+      "predicted_evidence_ids": [5, 6, 7, 8],
+      "golden_evidence_ids": [1, 2, 3, 4],
+      "expected_score": "Lowest"
+    }
+  ],
+  "coherence_score": [
+    {
+      "generated_explanation": "BRAF V600E mutations activate the MAPK pathway. This leads to uncontrolled cell growth. BRAF inhibitors can block this aberrant signaling.",
+      "expected_score": "High"
+    },
+    {
+      "generated_explanation": "BRAF mutations occur in melanoma. They affect cell signaling. Some drugs can target these mutations.",
+      "expected_score": "Medium"
+    },
+    {
+      "generated_explanation": "BRAF important in cancer. Drugs exist. Melanoma treatment changing. Genetic testing helps.",
+      "expected_score": "Low"
+    }
+  ],
+  "fact_verification_score": [
+    {
+      "generated_explanation": "BRCA mutations increase risk of breast and ovarian cancers.",
+      "evidence_texts": ["BRCA1 and BRCA2 mutations are associated with higher risk of breast and ovarian cancers.", "Individuals with BRCA mutations often undergo increased cancer screening."],
+      "expected_score": "High"
+    },
+    {
+      "generated_explanation": "BRCA mutations increase risk of breast and ovarian cancers.",
+      "evidence_texts": ["Genetic factors can influence cancer risk.", "Regular check-ups are important for early cancer detection."],
+      "expected_score": "Medium"
+    },
+    {
+      "generated_explanation": "BRCA mutations increase risk of breast and ovarian cancers.",
+      "evidence_texts": ["Smoking is a major cause of lung cancer.", "Exercise can help reduce the risk of some cancers."],
+      "expected_score": "Low"
+    }
+  ],
+  "explanation_completeness_score": [
+    {
+      "generated_explanation": "MSI-H status in colorectal cancer predicts response to immunotherapy. It indicates defective DNA mismatch repair. This leads to increased neoantigen load and T-cell infiltration.",
+      "golden_explanation": "Microsatellite instability-high (MSI-H) status in colorectal cancer is predictive of response to immune checkpoint inhibitors. MSI-H tumors have defective DNA mismatch repair, resulting in increased mutational burden and neoantigen production. This promotes T-cell infiltration and susceptibility to immunotherapy.",
+      "expected_score": "High"
+    },
+    {
+      "generated_explanation": "MSI-H status in colorectal cancer relates to immunotherapy response. It affects how the immune system interacts with the tumor.",
+      "golden_explanation": "Microsatellite instability-high (MSI-H) status in colorectal cancer is predictive of response to immune checkpoint inhibitors. MSI-H tumors have defective DNA mismatch repair, resulting in increased mutational burden and neoantigen production. This promotes T-cell infiltration and susceptibility to immunotherapy.",
+      "expected_score": "Medium"
+    },
+    {
+      "generated_explanation": "MSI-H is a feature of some colorectal cancers.",
+      "golden_explanation": "Microsatellite instability-high (MSI-H) status in colorectal cancer is predictive of response to immune checkpoint inhibitors. MSI-H tumors have defective DNA mismatch repair, resulting in increased mutational burden and neoantigen production. This promotes T-cell infiltration and susceptibility to immunotherapy.",
+      "expected_score": "Low"
+    }
+  ],
+  "evidence_relevance_score": [
+    {
+      "claim": "PARP inhibitors are effective in BRCA-mutated ovarian cancers.",
+      "selected_evidence": ["PARP inhibitors exploit synthetic lethality in BRCA-deficient cells.", "Clinical trials show improved progression-free survival with PARP inhibitors in BRCA-mutated ovarian cancer."],
+      "expected_score": "High"
+    },
+    {
+      "claim": "PARP inhibitors are effective in BRCA-mutated ovarian cancers.",
+      "selected_evidence": ["Some targeted therapies show promise in ovarian cancer treatment.", "Genetic testing is becoming more common in cancer diagnosis."],
+      "expected_score": "Medium"
+    },
+    {
+      "claim": "PARP inhibitors are effective in BRCA-mutated ovarian cancers.",
+      "selected_evidence": ["Regular pelvic exams are important for women's health.", "Chemotherapy remains a standard treatment for many cancers."],
+      "expected_score": "Low"
+    }
+  ],
+  "claim_evidence_alignment_score": [
+    {
+      "claim": "IDH mutations in glioma lead to 2-HG accumulation.",
+      "selected_evidence": ["IDH1/2 mutations result in neomorphic enzyme activity, producing 2-HG.", "IDH mutantations in gliomas lead to accumulation of 2-HG levels."],
+      "expected_score": "High"
+    },
+    {
+      "claim": "IDH mutations in glioma lead to 2-HG accumulation.",
+      "selected_evidence": ["IDH mutations can be found in specific types of tumors.", "Genetic alterations sometimes affect metabolism."],
+      "expected_score": "Medium"
+    },
+    {
+      "claim": "IDH mutations in glioma lead to 2-HG accumulation.",
+      "selected_evidence": ["Gliomas are a type of brain cancer.", "Mutations factors rarely contribute to cancer development."],
+      "expected_score": "Low"
+    }
+  ]
+}
