@@ -1,0 +1,242 @@
+[
+  {
+    "claim_A": {
+      "generated_explanation": "The evidence strongly supports the claim that BCOR ITD is a desirable diagnostic criterion for clear cell sarcoma of the kidney (CCSK). Multiple studies (IDs 11424, 10801, 10802, 11423) consistently found BCOR ITD in a high percentage of CCSK cases, with one study identifying it in 100% of cases tested (ID 11423). This alteration was not found in other pediatric renal tumors, suggesting its specificity to CCSK. The recurrent nature of BCOR ITD in CCSK and its absence in other renal cancers make it a reliable diagnostic marker for this rare pediatric cancer."
+    },
+    "claim_B": {
+      "generated_explanation": "The evidence supports the claim that ETV6-NTRK3\u2013positive B-cell lymphoblastic leukemia patients can be sensitive to larotrectinib. Several studies (IDs 7496, 7993, 8930, 6930, 8917) demonstrate the effectiveness of larotrectinib in reducing tumor burden and achieving remission in patients with NTRK3 fusions, including ETV6-NTRK3. For instance, ID 7993 reports a case where larotrectinib treatment led to a rapid clinical response in a patient with ETV6-NTRK3 fusion. Additionally, ID 8930 shows significant reductions in leukemic burden in patient-derived xenografts treated with larotrectinib. These findings indicate that larotrectinib is a potent therapeutic option for patients with this specific genetic profile."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The F76del variant in the VHL gene is supported as pathogenic for Von Hippel-Lindau Disease by multiple studies. Evidence from ID 5682 shows that this mutation segregates with the disease in a family, with affected members displaying classic VHL manifestations such as renal cell carcinoma and CNS hemangioblastomas. Additionally, ID 5426 and ID 5744 provide moderate evidence for pathogenicity, noting the in-frame deletion's impact on protein function. These findings are consistent with the clinical presentations of VHL disease, supporting the claim of pathogenicity for the F76del variant."
+    },
+    "claim_B": {
+      "generated_explanation": "Rearrangements involving MYB or MYBL1 are crucial diagnostic markers for diffuse astrocytoma, MYB- or MYBL1-altered, as evidenced by several studies. ID 11780 and ID 11779 highlight the presence of MYB or MYBL1 rearrangements in a significant proportion of diffuse astrocytomas, with MYB/MYBL1 alterations being a defining feature of these tumors. These rearrangements are associated with distinct molecular profiles and tumor characteristics, underscoring their diagnostic importance. The evidence supports the claim that MYB or MYBL1 rearrangements are essential criteria for diagnosing this subtype of diffuse astrocytoma."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The rearrangement involving MYB or MYBL1 is a significant diagnostic criterion for diffuse astrocytoma, MYB- or MYBL1-altered, as evidenced by studies showing a high prevalence of these alterations in such tumors. Evidence ID 11780 and ID 11779 highlight that MYB or MYBL1 rearrangements are present in a substantial proportion of diffuse astrocytomas, with MYBL1 alterations observed in 77% of certain tumor types and MYB/MYBL1 rearrangements detected in 41% of diffuse astrocytomas. These findings support the claim that MYB or MYBL1 rearrangements are essential for diagnosing this specific subtype of diffuse astrocytoma."
+    },
+    "claim_B": {
+      "generated_explanation": "HEY1::NCOA2 fusions are pathognomonic for mesenchymal chondrosarcoma, as they are consistently found in this type of tumor and absent in other sarcoma types. Evidence ID 7008 and ID 7125 demonstrate that the HEY1-NCOA2 fusion is present in mesenchymal chondrosarcomas but not in other sarcomas, reinforcing its diagnostic specificity. Additionally, ID 7124 and ID 7017 further confirm the prevalence of this fusion in mesenchymal chondrosarcoma, supporting its role as a diagnostic marker for the disease."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "BRAF V600E mutant melanoma is sensitive to the combination therapy of dabrafenib and trametinib, as evidenced by multiple clinical trials. For instance, in a Phase III trial (ID 6938), patients with unresectable stage IIIC or IV melanoma showed a higher response rate to the combination therapy compared to dabrafenib alone, with a 68% response rate in the V600E group. Additionally, another study (ID 6940) demonstrated a significant improvement in progression-free survival for patients receiving the combination therapy versus monotherapy. These findings suggest that the combination therapy effectively targets the BRAF V600E mutation, improving patient outcomes."
+    },
+    "claim_B": {
+      "generated_explanation": "LMNA::NTRK1 positive tumors demonstrate a response to entrectinib, supported by evidence from clinical and preclinical studies. In a case study (ID 11578), a patient with an LMNA::NTRK1 fusion showed a significant reduction in tumor size after treatment with entrectinib, allowing for surgical intervention. Furthermore, preclinical studies (ID 11354) confirmed entrectinib's activity against LMNA::NTRK1 fusions, maintaining efficacy even in the presence of certain mutations. These results indicate that entrectinib is a promising therapeutic option for tumors harboring LMNA::NTRK1 fusions, providing a targeted approach to treatment."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "HER2 amplification is a well-established predictor of sensitivity to Trastuzumab, particularly in HER2-positive metastatic breast cancer (MBC). Evidence from clinical trials, such as the HERA Phase III trial (ID 1122), demonstrates significant improvements in disease-free survival with Trastuzumab treatment in HER2-positive patients. Additional studies (ID 529 and ID 528) show enhanced overall survival and response rates when Trastuzumab is combined with chemotherapy. Despite the progression of some cancers under Trastuzumab, the drug remains effective, and dual HER2 blockade strategies, including Trastuzumab, continue to show promise in treatment regimens."
+    },
+    "claim_B": {
+      "generated_explanation": "The ACVR1 G328V mutation supports the diagnosis of diffuse intrinsic pontine glioma (DIPG), as evidenced by studies identifying this mutation in DIPG patients. In a study of 61 DIPG patients, 12 variants affecting ACVR1 were observed, with the G328V mutation activating downstream BMP signaling and enhancing cell growth (ID 6955). Another study (ID 4846) found ACVR1 mutations exclusively in midline high-grade astrocytomas, further supporting their diagnostic relevance in gliomas. These findings highlight the mutation's role in the pathogenesis and potential diagnosis of DIPG."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The inframe variant F76del in the VHL gene is considered pathogenic for Von Hippel-Lindau Disease based on multiple studies. Evidence from studies such as ID 5682 and ID 5744 shows that this mutation segregates with the disease in families and is associated with classic VHL manifestations like renal cell carcinoma and CNS hemangioblastomas. The ACMG evidence codes, including PM4 and PP4, support the pathogenicity of this variant due to its presence in affected individuals and its absence in unaffected controls, as seen in studies like ID 5203 and ID 5750."
+    },
+    "claim_B": {
+      "generated_explanation": "FOXR2 activation by structural rearrangement is an essential diagnostic criterion for CNS neuroblastoma, FOXR2-activated, as evidenced by studies like ID 11527 and ID 11528. These studies demonstrate that FOXR2 rearrangements are present in a significant subset of CNS neuroblastoma cases, leading to high FOXR2 expression. The identification of specific gene fusion partners and the consistent presence of FOXR2 activation in these tumors underscore its role as a defining molecular feature of this cancer subtype."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "Claim A suggests that FLT3 tyrosine kinase domain mutations at residue D835 in relapsed/refractory acute myeloid leukemia (AML) are sensitive to Gilteritinib, a Type I FLT3 inhibitor. Evidence ID 8106 supports this claim by demonstrating that Gilteritinib effectively inhibits cell growth and reduces phosphorylation of FLT3 in Ba/F3 cells expressing the D835Y mutation. Additionally, Evidence ID 7728 from a phase 3 trial shows that Gilteritinib significantly improves survival and response rates in patients with FLT3-mutated AML, including those with D835 mutations, compared to chemotherapy. These findings collectively support the sensitivity of D835 mutations to Gilteritinib, validating the claim."
+    },
+    "claim_B": {
+      "generated_explanation": "Claim B posits that ALK fusion positive NSCLC is sensitive to Alectinib. Evidence ID 7284 from a phase 3 trial indicates that Alectinib significantly prolongs progression-free survival and has a higher response rate compared to Crizotinib in ALK fusion positive NSCLC patients. Furthermore, Evidence ID 8657 from the J-ALEX trial corroborates these findings, showing improved progression-free survival and a favorable safety profile for Alectinib over Crizotinib. These studies provide strong evidence supporting the claim that Alectinib is effective in treating ALK fusion positive NSCLC."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "BCOR internal tandem duplication (ITD) is a critical diagnostic marker for central nervous system (CNS) tumors with BCOR ITD, as evidenced by multiple studies. Evidence IDs 11581, 10800, 10887, and 10804 consistently highlight the unique clinical, pathological, and molecular characteristics of CNS tumors with BCOR ITD, distinguishing them from other tumor types. These studies demonstrate that BCOR ITD is a defining feature of a specific CNS tumor subtype, supporting its inclusion as an essential diagnostic criterion in the WHO classification."
+    },
+    "claim_B": {
+      "generated_explanation": "Rearrangements involving MYB or MYBL1 are essential diagnostic criteria for diffuse astrocytoma, MYB- or MYBL1-altered, as supported by evidence IDs 11780, 11779, and 11781. These studies reveal that MYB and MYBL1 rearrangements are prevalent in diffuse astrocytomas and related gliomas, with specific gene fusions and alterations contributing to the tumor's molecular profile. The presence of these rearrangements helps define a distinct molecular subclass of diffuse astrocytomas, underscoring their diagnostic significance."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The EWSR1::FLI1 fusion is a well-established pathognomonic marker for Ewing sarcoma, as it is present in approximately 90% of cases. Evidence from multiple studies supports this claim, with one study (ID 478) indicating that t(11;22) rearrangements of EWSR1-FLI1 are diagnostic of Ewing sarcoma and observed in 90% of cytogenetic samples. Another study (ID 10337) found EWSR1::FLI1 fusion transcripts in 93% of Ewing tumors analyzed. These findings underscore the critical role of the EWSR1::FLI1 fusion in diagnosing Ewing sarcoma, making it a reliable diagnostic criterion."
+    },
+    "claim_B": {
+      "generated_explanation": "MYB rearrangements, particularly the MYB::QKI fusion, are significant diagnostic markers for angiocentric glioma. Evidence from a study (ID 11769) shows that MYB::QKI fusion characterizes almost all angiocentric gliomas, with 87% of cases exhibiting this fusion. Another study (ID 11773) supports this by identifying MYB alterations in all angiocentric gliomas examined, with MYB::QKI being the predominant fusion. These findings highlight the importance of MYB rearrangements as desirable diagnostic criteria for angiocentric glioma, providing a molecular basis for diagnosis."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The R167Q (c.500G>A) variant is considered pathogenic for Von Hippel-Lindau (VHL) disease due to its disruption of the VHL gene's ability to bind elongin C, which reduces the VHL-elongin B-elongin C (VBC) E3 ligase complex levels and impairs VHL's regulation of HIF2\u03b1, leading to increased tumorigenesis risk. Evidence supporting this includes studies showing the prevalence of this variant in affected individuals significantly higher than in controls (ID 5264) and its cosegregation with disease in multiple affected family members (ID 4913, ID 5487). Additionally, the variant is associated with specific phenotypes such as retinal hemangioblastomas and pheochromocytomas, further supporting its pathogenicity (ID 5354, ID 5487)."
+    },
+    "claim_B": {
+      "generated_explanation": "The SCP2::NTRK1 fusion is classified as likely oncogenic in breast cancer due to its involvement in cases where the fusion retains the NTRK1 tyrosine kinase domain, which is a known driver of oncogenic activity. Evidence includes a case where the fusion was detected in a breast cancer patient post-endocrine therapy, with positive pan-tyrosine receptor kinase immunohistochemical staining (ID 10898). Another study identified the fusion in a patient with lymph node metastasis, further supporting its oncogenic potential (ID 10897). These findings suggest that the SCP2::NTRK1 fusion plays a role in the progression of breast cancer, particularly in the context of treatment resistance."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "Evidence from multiple studies supports the claim that FLT3 internal tandem duplication (ITD) mutations in relapsed/refractory acute myeloid leukemia (AML) are sensitive to Gilteritinib. The ADMIRAL phase 3 trial (ID 7728) demonstrated that patients with FLT3-mutated AML, including those with ITD mutations, had significantly longer overall survival and higher complete remission rates when treated with Gilteritinib compared to salvage chemotherapy. Additionally, in vitro studies (ID 8923 and ID 8924) showed that FLT3-ITD cell lines are more sensitive to Gilteritinib, with lower IC50 values compared to wildtype cells, indicating increased sensitivity to the inhibitor."
+    },
+    "claim_B": {
+      "generated_explanation": "The claim that TFE3 fusions are diagnostic for renal cell carcinoma with MiT translocations and correspond to those with an Xp11 translocation is supported by several studies. Evidence from ID 10150 and ID 11533 indicates that TFE3 gene fusions, such as those involving PRCC and ASPSCR1, are characteristic of Xp11 translocation renal cell carcinoma, a subtype of MiT family translocation RCC. These fusions are confirmed through techniques like FISH and RT-PCR, as shown in studies ID 11683 and ID 11532, which further validate the diagnostic role of TFE3 fusions in identifying this specific type of renal cell carcinoma."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The HEY1::NCOA2 fusion is a specific and recurrent translocation found in mesenchymal chondrosarcoma, as evidenced by its presence in 10 mesenchymal chondrosarcomas and absence in other sarcoma types (Evidence ID 7008). This fusion results in a chimeric transcription factor that combines domains from HEY1 and NCOA2, which is detectable using FISH and RT-PCR methods (Evidence IDs 7124, 7125). The consistent detection of this fusion in mesenchymal chondrosarcoma cases, but not in other similar neoplasms like meningeal hemangiopericytoma, supports its diagnostic utility (Evidence ID 7125). Therefore, the HEY1::NCOA2 fusion serves as a pathognomonic marker for mesenchymal chondrosarcoma, aiding in its diagnosis."
+    },
+    "claim_B": {
+      "generated_explanation": "The DNAJB1::PRKACA fusion is highly sensitive and specific for diagnosing fibrolamellar hepatocellular carcinoma (FL-HCC), as it was detected in 100% of FL-HCC cases examined in one study (Evidence ID 405). This fusion results from a head-to-tail in-frame fusion between exon 1 of DNAJB1 and exon 2 of PRKACA, retaining kinase activity, which is confirmed by both RNA and DNA analyses (Evidence ID 405). Additionally, the fusion was found in all fibrolamellar carcinoma cases but not in other liver tumor types, underscoring its specificity (Evidence ID 532). The presence of this fusion in FL-HCC and its absence in adjacent normal tissue further supports its diagnostic utility (Evidence ID 405)."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The combination of vemurafenib and cobimetinib has been shown to be effective in treating BRAF V600E mutant melanoma. Evidence from multiple studies, such as the coBRIM trial (ID 1421) and another multicentre study (ID 6044), demonstrates improved progression-free survival and overall survival with this combination therapy compared to vemurafenib alone. These findings are consistent with the known sensitivity of BRAF V600E mutations to targeted therapies, supporting the claim that this combination is beneficial for patients with this mutation."
+    },
+    "claim_B": {
+      "generated_explanation": "BCOR ITD is a highly desirable diagnostic criterion for clear cell sarcoma of the kidney, as evidenced by its high prevalence in this cancer type. Studies (ID 10801, ID 10802, and ID 11423) consistently show that BCOR ITDs are present in a significant majority of clear cell sarcoma cases and absent in other pediatric renal tumors, highlighting its specificity. This makes BCOR ITD a valuable marker for diagnosing this rare pediatric cancer, supporting the claim of its diagnostic utility."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "ALK fusion positive NSCLC is sensitive to alectinib, as evidenced by multiple clinical trials demonstrating its efficacy. For instance, a Phase III trial (ID 7284) showed that alectinib significantly prolonged progression-free survival compared to crizotinib in patients with ALK fusion NSCLC, with a higher response rate and better CNS response. Additionally, a Phase II trial (ID 1282) reported objective responses in patients who had progressed on crizotinib, further supporting alectinib's effectiveness. These findings highlight alectinib as a potent therapeutic option for ALK fusion positive NSCLC, offering improved outcomes over previous treatments."
+    },
+    "claim_B": {
+      "generated_explanation": "LMNA::NTRK1 positive tumors demonstrate a response to entrectinib, supported by evidence from clinical and preclinical studies. A case study (ID 11578) reported a significant reduction in tumor size in a patient with LMNA::NTRK1 fusion after entrectinib treatment, allowing for surgical intervention. Additionally, in vitro studies (ID 10095) showed entrectinib's potent activity against LMNA::NTRK1 fusions, with low IC50 values indicating high sensitivity. These results suggest that entrectinib is an effective treatment for tumors harboring LMNA::NTRK1 fusions, providing a targeted therapeutic approach."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "BRAF V600E mutant melanoma is sensitive to the combination therapy of dabrafenib and trametinib, as evidenced by multiple clinical trials. For instance, in a Phase I and II study (ID 6940), patients with metastatic melanoma receiving the combination therapy showed a significant improvement in progression-free survival compared to those receiving dabrafenib alone, with a hazard ratio of 0.43. Additionally, a clinical trial (ID 3758) demonstrated a higher response rate and longer median progression-free survival for patients treated with the combination therapy compared to vemurafenib. These findings support the claim that the combination therapy is effective for BRAF V600E mutant melanoma."
+    },
+    "claim_B": {
+      "generated_explanation": "The DNAJB1::PRKACA fusion is highly sensitive and specific for diagnosing fibrolamellar hepatocellular carcinoma (FL-HCC). Evidence from multiple studies supports this claim, such as ID 405, which found the fusion in 100% of FL-HCC cases examined, confirming its presence at both RNA and DNA levels in tumor samples but not in adjacent normal tissue. Furthermore, ID 532 demonstrated that the fusion was detected in all fibrolamellar cases but not in other liver tumor types, highlighting its specificity. These findings underscore the fusion's utility as a diagnostic marker for FL-HCC."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The PAX5 p.P80R mutation is identified as a defining feature of a specific subtype of B-lymphoblastic leukemia/lymphoma, as evidenced by multiple studies. Evidence IDs 11519, 7291, and 7290 consistently report the presence of the PAX5 p.P80R mutation in a significant subset of B-cell precursor acute lymphoblastic leukemia cases, with a unique expression profile and absence of other key driver mutations. This mutation's distinct transcriptional signature supports its classification as a separate subtype, aligning with the WHO classification criteria."
+    },
+    "claim_B": {
+      "generated_explanation": "The VHL E70K (c.208G>A) mutation is likely pathogenic, as supported by its association with Von Hippel-Lindau (VHL) disease. Evidence IDs 6742, 5805, and 6860 document the presence of this mutation in multiple individuals with VHL disease symptoms, such as CNS and retinal hemangioblastomas. The rarity of this variant in genome databases and its occurrence in a gene with a low rate of benign missense variation further support its pathogenicity, justifying its classification under ACMG codes 'PP2' and 'PM2'."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The ETV6::NTRK3 fusion is recognized as an oncogenic driver in various cancer types, particularly in infantile fibrosarcoma. Evidence ID 6099 supports this claim by demonstrating that patients with ETV6::NTRK3 fusion-positive cancers, such as infantile fibrosarcoma, show significant responses to targeted therapies like larotrectinib. This suggests the fusion's role in oncogenesis, as the presence of the fusion correlates with tumor growth and response to specific inhibitors."
+    },
+    "claim_B": {
+      "generated_explanation": "LMNA::NTRK1 positive tumors have shown a response to entrectinib, as evidenced by multiple studies. Evidence ID 11578 describes a case where a patient with an LMNA::NTRK1 fusion experienced a significant reduction in tumor size after treatment with entrectinib. Additionally, Evidence ID 11354 supports the efficacy of entrectinib against LMNA::NTRK1 fusions, demonstrating its activity in preclinical models. These findings collectively support the claim that entrectinib is effective in treating tumors with this specific fusion."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "Claim A posits that BRAF V600E mutant melanoma is sensitive to the combination therapy of vemurafenib and cobimetinib. Evidence supporting this claim includes a Phase III trial (ID 1421) where patients with BRAF V600E mutant melanoma treated with vemurafenib and cobimetinib showed improved progression-free survival compared to those receiving vemurafenib alone. Another study (ID 6044) corroborates these findings, reporting a median progression-free survival of 12.3 months for the combination therapy versus 7.2 months for vemurafenib alone. These studies suggest that the combination therapy is more effective, providing a strong basis for the claim."
+    },
+    "claim_B": {
+      "generated_explanation": "Claim B suggests that ETV6-NTRK3\u2013positive B-cell lymphoblastic leukemia patients can be sensitive to larotrectinib. Supporting evidence includes a case report (ID 7993) where a patient with ETV6-NTRK3 fusion achieved clinical benefit with larotrectinib treatment. Additionally, a study (ID 8930) demonstrated that larotrectinib was effective in achieving remission in patient-derived xenografts with ETV6-NTRK3 fusion. These findings indicate that larotrectinib is a promising treatment for patients with this specific genetic profile, supporting the claim."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The L184P (c.551T>C) variant in the VHL gene is considered a variant of unknown significance (VUS) for Von Hippel-Lindau Disease. Evidence from multiple studies (IDs 4943, 8491, 6119, 5055) indicates that this variant has been identified in individuals with phenotypes consistent with VHL disease, such as renal cell carcinoma and CNS hemangioblastomas. However, the lack of comprehensive family data and the presence of the variant in only a few cases without broader population studies limit the ability to definitively classify it as pathogenic. The ACMG evidence codes, such as PP4, suggest that the phenotypes are highly specific for VHL, but the variant's significance remains uncertain due to limited data."
+    },
+    "claim_B": {
+      "generated_explanation": "The NUTM1 fusion is an essential diagnostic criterion for NUT carcinoma, as evidenced by multiple studies (IDs 12009, 12050, 12049, 12051) that highlight the presence of NUTM1 rearrangements in NUT carcinoma cases. These studies demonstrate that the majority of NUT carcinomas harbor NUTM1 fusions, particularly with partners like BRD4 and BRD3, and that these fusions are detectable through various diagnostic methods such as IHC, FISH, and sequencing. The consistent identification of NUTM1 fusions in NUT carcinoma supports its role as a critical diagnostic marker, distinguishing it from other poorly differentiated carcinomas."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The evidence supports the claim that FOXR2 activation by structural rearrangement is an essential diagnostic criterion for CNS neuroblastoma. Studies have identified CNS neuroblastoma with FOXR2 activation as a distinct molecular subtype, with genome-wide sequencing revealing gene rearrangements involving FOXR2 and various fusion partners, leading to high FOXR2 expression. This specific molecular profile was observed in a significant percentage of CNS-PNET tumors, suggesting its diagnostic relevance."
+    },
+    "claim_B": {
+      "generated_explanation": "The evidence strongly supports the claim that ETV6::NTRK3 is a desirable diagnostic criterion for the cellular subtype of congenital mesoblastic nephroma. Multiple studies have consistently found the ETV6::NTRK3 fusion in a high percentage of cellular mesoblastic nephroma cases, while it is absent in classic and mixed subtypes. This specific genetic alteration, resulting from a translocation, is almost exclusive to the cellular subtype, highlighting its diagnostic significance."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The claim that LMNA::NTRK1 is diagnostic for lipofibromatosis-like neural tumors (LPF-NTs) is supported by multiple pieces of evidence. Evidence ID 11650 describes a case where the presence of an LMNA::NTRK1 fusion was used to diagnose LPF-NT, highlighting the diagnostic utility of this fusion. Similarly, evidence IDs 11577 and 11576 report cases where the identification of the LMNA::NTRK1 fusion led to the reclassification of tumors as LPF-NTs, further supporting its diagnostic significance. Evidence ID 6391 also confirms the presence of the LMNA::NTRK1 fusion in a patient with LPF-NT, reinforcing the claim. Collectively, these cases demonstrate that the LMNA::NTRK1 fusion is a reliable marker for diagnosing LPF-NTs."
+    },
+    "claim_B": {
+      "generated_explanation": "The claim that ETV6::NTRK3-positive infantile fibrosarcoma tumors are sensitive to larotrectinib is well-supported by the evidence. Evidence ID 6473 reports a case where a patient with ETV6::NTRK3-positive infantile fibrosarcoma showed a rapid response to larotrectinib, indicating its effectiveness. Evidence ID 6099 further supports this claim by showing that a significant proportion of patients with ETV6::NTRK3-positive tumors achieved partial or complete responses to larotrectinib in a clinical study. Additionally, evidence ID 7418 describes successful treatment outcomes in pediatric patients with ETV6::NTRK3-positive tumors using larotrectinib, leading to reduced tumor burden and disease-free status. These findings collectively affirm the sensitivity of ETV6::NTRK3-positive infantile fibrosarcoma to larotrectinib."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The LMNA::NTRK1 fusion is classified as an oncogenic NTRK fusion based on multiple pieces of evidence demonstrating its role in cancer. Evidence ID 9588 highlights that patients with NTRK fusions, including LMNA::NTRK1, showed objective responses to treatment, suggesting its oncogenic potential. Additionally, evidence IDs 11576, 11577, and 11578 describe cases where the LMNA::NTRK1 fusion was associated with tumors that responded well to targeted therapies, further supporting its classification as oncogenic. The presence of the intact NTRK1 tyrosine kinase domain in these fusions, as noted in evidence IDs 8901 and 8900, underscores their potential to drive oncogenic signaling pathways."
+    },
+    "claim_B": {
+      "generated_explanation": "The ETV6::NTRK3 fusion is a desirable diagnostic criterion for the cellular subtype of congenital mesoblastic nephroma, as supported by several studies. Evidence ID 11279 indicates that the ETV6::NTRK3 fusion was detected in 100% of cellular mesoblastic nephroma cases, highlighting its strong association with this subtype. Similarly, evidence ID 10841 reports that this fusion occurs almost exclusively in the cellular subtype, reinforcing its diagnostic value. These findings suggest that the presence of the ETV6::NTRK3 fusion can be a reliable marker for identifying the cellular subtype of congenital mesoblastic nephroma."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "Evidence from multiple studies supports the sensitivity of FLT3 ITD mutations in relapsed/refractory AML to Gilteritinib. The ADMIRAL phase 3 trial (ID 7728) demonstrated that patients with FLT3-mutated AML, including those with ITD mutations, had significantly longer overall survival and higher complete remission rates with Gilteritinib compared to salvage chemotherapy. Additionally, in vitro studies (ID 8923, ID 8924) showed that FLT3-ITD cell lines are more sensitive to Gilteritinib, with lower IC50 values compared to wildtype cells, indicating a strong biological basis for the drug's efficacy in this mutation."
+    },
+    "claim_B": {
+      "generated_explanation": "The sensitivity of BCR::NTRK2 fusion-positive tumors to Entrectinib is supported by clinical evidence, although specific data on BCR::NTRK2 is limited. A case study (ID 12035) of a patient with glioblastoma harboring a BCR::NTRK2 fusion showed a significant, albeit temporary, response to Entrectinib, with decreased tumor size and prolonged asymptomatic status. Additionally, broader studies on NTRK fusion-positive tumors (ID 11222) have demonstrated objective responses to Entrectinib, suggesting potential efficacy in BCR::NTRK2 fusions, though more specific data would strengthen this claim."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The inframe variant F76del in the VHL gene is considered pathogenic for Von Hippel-Lindau Disease based on multiple lines of evidence. Several studies (e.g., IDs 5682, 5426, 5203, 5766, 5750) have identified this mutation in patients with clinical manifestations typical of VHL, such as renal cell carcinoma and CNS hemangioblastomas. The mutation segregates with the disease in families, providing segregation evidence (PP1), and is associated with specific phenotypes (PP4). Additionally, the mutation results in an in-frame deletion, which is a recognized mechanism of pathogenicity (PM4). These findings collectively support the pathogenic classification of the F76del variant."
+    },
+    "claim_B": {
+      "generated_explanation": "The SCP2::NTRK1 fusion is classified as a likely oncogenic NTRK fusion, particularly in the context of breast cancer. Evidence from ID 10898 and ID 10897 indicates that this fusion retains the tyrosine kinase domain of NTRK1, which is a known driver of oncogenic activity. The presence of this fusion in a breast cancer patient, along with positive TRK immunohistochemical staining, supports its oncogenic potential. Although specific therapies or phenotypes were not identified, the molecular characteristics of the fusion suggest its role in tumorigenesis, aligning with the classification as likely oncogenic."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "EWSR1::FLI1 is a well-established pathognomonic marker for Ewing sarcoma, as evidenced by its presence in approximately 90% of cases. Evidence ID 478 supports this claim by stating that t(11;22) rearrangements of EWSR1-FLI1 are diagnostic of Ewing sarcoma and are observed in 90% of cytogenetic samples. Additionally, Evidence ID 10337 highlights that RT-PCR revealed EWSR1::FLI1 fusion transcripts in 93% of Ewing tumors, further supporting its diagnostic significance. These findings underscore the critical role of EWSR1::FLI1 in confirming the diagnosis of Ewing sarcoma."
+    },
+    "claim_B": {
+      "generated_explanation": "BCOR::CCNB3 fusions have emerged as a significant diagnostic criterion for a subset of clear cell sarcoma of the kidney (CCSK). Evidence ID 12003 describes a case where a BCOR::CCNB3 fusion was identified in a CCSK patient, suggesting its diagnostic relevance. Furthermore, Evidence ID 12004 reports two additional cases of BCOR::CCNB3 fusion-positive CCSK, reinforcing the importance of testing for this fusion in CCSK patients lacking other common genetic markers. These studies collectively indicate that BCOR::CCNB3 fusions can serve as a valuable diagnostic tool for identifying specific CCSK cases."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The EWSR1::CREB3L1 fusion is frequently observed in sclerosing epithelioid fibrosarcoma (SEF), as evidenced by studies showing its presence in a significant number of SEF cases (e.g., 8 out of 13 cases in one study, ID 12058). This suggests that the EWSR1::CREB3L1 fusion could serve as a useful diagnostic marker for SEF, distinguishing it from other similar tumors like low-grade fibromyxoid sarcoma, which predominantly exhibit different fusions (e.g., FUS::CREB3L2, ID 12059). The consistent detection of this fusion in SEF supports its potential role as a desirable diagnostic criterion."
+    },
+    "claim_B": {
+      "generated_explanation": "The HEY1::NCOA2 fusion is highly specific to mesenchymal chondrosarcoma, as demonstrated by its presence in all tested cases of this disease and absence in other sarcoma types (ID 7008). This specificity suggests that the HEY1::NCOA2 fusion is pathognomonic for mesenchymal chondrosarcoma, making it a valuable diagnostic tool. Additional studies confirm the fusion's prevalence in mesenchymal chondrosarcoma, further supporting its diagnostic utility (ID 7125, ID 7017). The fusion's unique presence in this cancer type underscores its importance in aiding diagnosis."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The FGFR3 S249C variant is considered oncogenic based on several lines of evidence. Studies have shown that NIH-3T3 cells expressing this mutation exhibit increased colony formation and tumor growth in xenograft assays, indicating its transforming properties (ID 7941, ID 8853). Additionally, the mutation leads to ligand-independent phosphorylation and altered cell morphology, further supporting its role in oncogenesis (ID 8853). Although the mutation does not induce constitutive dimerization, it causes structural modifications that may contribute to its oncogenic potential (ID 8854)."
+    },
+    "claim_B": {
+      "generated_explanation": "FLT3 tyrosine kinase domain mutations at residue D835 in relapsed/refractory AML are sensitive to Gilteritinib, as evidenced by multiple studies. Gilteritinib has been shown to inhibit cell growth and reduce phosphorylation of FLT3 and its downstream targets in cells expressing the D835Y mutation (ID 8106). Clinical trials have demonstrated that patients with FLT3 mutations, including D835, have a higher response rate to Gilteritinib compared to those with wild-type FLT3 (ID 7283, ID 7728). These findings support the claim that Gilteritinib is effective in treating AML with D835 mutations."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The KANK1::NTRK2 fusion is classified as an oncogenic NTRK fusion based on several pieces of evidence. Evidence ID 10361 describes a case where a patient with a glioblastoma harboring the KANK1::NTRK2 fusion showed a significant response to larotrectinib, indicating the oncogenic potential of this fusion. Additionally, evidence ID 10360 reports another case where a patient with a KANK1::NTRK2 fusion demonstrated cognitive and motor improvements following larotrectinib treatment, further supporting its oncogenic classification. These cases suggest that the KANK1::NTRK2 fusion contributes to tumorigenic behavior and can be effectively targeted by NTRK inhibitors."
+    },
+    "claim_B": {
+      "generated_explanation": "The BCR::NTRK2 fusion-positive tumors demonstrate sensitivity to entrectinib, as evidenced by case studies. Evidence ID 12035 describes a patient with glioblastoma multiforme harboring the BCR::NTRK2 fusion who showed a significant reduction in tumor size and remained asymptomatic for 15 months following entrectinib treatment. This suggests that the BCR::NTRK2 fusion may confer sensitivity to entrectinib, a known NTRK inhibitor. However, evidence ID 12053 indicates a case where a patient with a BCR::NTRK2 fusion had stable disease rather than a significant response, suggesting variability in response and the need for further investigation."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The rearrangement involving MYB or MYBL1 is a significant diagnostic criterion for diffuse astrocytoma, MYB- or MYBL1-altered, as evidenced by studies showing a high prevalence of these rearrangements in such tumors. Evidence ID 11777 and ID 11778 highlight that MYB or MYBL1 alterations are present in a substantial proportion of diffuse astrocytomas, with MYB/MYBL1-altered gliomas forming a distinct cluster in DNA methylome profiling. This supports the claim that these genetic alterations are essential for diagnosing this specific subtype of diffuse astrocytoma."
+    },
+    "claim_B": {
+      "generated_explanation": "NUTM1 fusion is a critical diagnostic criterion for NUT carcinoma, as demonstrated by multiple studies identifying this genetic alteration in the majority of NUT carcinoma cases. Evidence ID 12050 and ID 12049 confirm that NUTM1 fusions, particularly BRD4::NUTM1, are prevalent in NUT carcinomas and are used to define the disease. The consistent presence of NUTM1 rearrangements across various studies underscores its importance in diagnosing NUT carcinoma, supporting the claim's validity."
+    }
+  },
+  {
+    "claim_A": {
+      "generated_explanation": "The claim that FOXR2 activation by structural rearrangement is an essential diagnostic criterion for CNS neuroblastoma is supported by evidence from studies that have identified specific molecular subtypes of CNS neuroblastoma characterized by FOXR2 activation. Evidence ID 11527 and ID 11528 both highlight the presence of FOXR2 rearrangements in a significant subset of CNS neuroblastoma cases, with high expression levels of FOXR2 resulting from these rearrangements. These findings suggest that FOXR2 activation is a defining feature of a distinct molecular group within CNS neuroblastomas, supporting its role as a diagnostic criterion."
+    },
+    "claim_B": {
+      "generated_explanation": "The claim that NUTM1 fusion is an essential diagnostic criterion for NUT carcinoma is strongly supported by multiple studies. Evidence ID 12050 and ID 12049 describe the presence of NUTM1 rearrangements in a majority of NUT carcinoma cases, with specific fusion partners such as BRD4 and BRD3 being frequently identified. These studies emphasize the diagnostic importance of detecting NUTM1 fusions, as they are characteristic of NUT carcinoma and can aid in distinguishing it from other poorly differentiated carcinomas. The consistent identification of NUTM1 fusions across various studies underscores their critical role in the diagnosis of NUT carcinoma."
+    }
+  }
+]
