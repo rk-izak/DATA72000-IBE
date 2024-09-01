@@ -72,7 +72,7 @@
     "generated_explanation": "The evidence strongly supports Claim A, as multiple studies demonstrate the WWTR1::CAMTA1 fusion is present in a significant majority of epithelioid hemangioendothelioma (EHE) cases, making it a reliable diagnostic marker. The fusion is consistently found across different studies and is exclusive to EHE, ruling out other vascular tumors. This specificity and prevalence justify the claim's explanatory power, making it a compelling explanation for the diagnosis of EHE."
   },
   {
-    "selected_claim": "Claim B",
+    "selected_claim": "B",
     "generated_explanation": "Claim B is supported by robust clinical evidence showing that ALK fusions in lung adenocarcinoma are sensitive to crizotinib treatment. Clinical trials have demonstrated high response rates and improved survival in patients with ALK-rearranged NSCLC treated with crizotinib, leading to its approval as a first-line therapy. This evidence makes the observed therapeutic benefits more expected, given the background knowledge of ALK fusion's role as a driver mutation in this cancer subtype."
   },
   {
@@ -112,7 +112,7 @@
     "generated_explanation": "Claim A is supported by extensive evidence demonstrating that the RUNX1::RUNX1T1 fusion, resulting from the t(8;21) translocation, is a defining feature of a specific subtype of acute myeloid leukemia (AML). The evidence highlights the distinct morphological, cytogenetic, and immunophenotypic characteristics associated with this fusion, confirming its role in classifying a favorable prognostic subgroup of AML. This consistent association across multiple studies underscores the fusion's diagnostic significance in AML."
   },
   {
-    "selected_claim": "Claim A",
+    "selected_claim": "A",
     "generated_explanation": "Claim A is supported by multiple clinical trials demonstrating the effectiveness of dabrafenib and trametinib combination therapy in treating BRAF V600E mutant melanoma. The evidence shows significant improvements in progression-free survival and response rates compared to monotherapy or other treatments. The consistent results across different studies provide robust support for the claim, making it the most compelling explanation based on the available evidence."
   },
   {
