@@ -22,7 +22,8 @@ class GraphState(TypedDict):
     question: str
     generation: str
     documents: List[Dict[str, Union[int, str]]]
-    evidence_ids: List[int]
+    evidence: List[Dict[str, Union[int, str]]]
+    transform_count: int
 
 
 class GradeDocuments(BaseModel):
@@ -74,6 +75,7 @@ class SelfRAG:
 
         self.vectorstore = None
         self.workflow = self._create_workflow()
+        self.evidence_data = {}
 
     def load_documents(self, json_file: str) -> None:
         """
@@ -89,6 +91,7 @@ class SelfRAG:
         for item in data:
             doc = f"Evidence ID: {item['evidence_id']}\nEvidence Description: {item['description']}"
             documents.append(Document(page_content=doc, metadata={"evidence_id": item['evidence_id']}))
+            self.evidence_data[item['evidence_id']] = item['description']
 
         text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(chunk_size=250, chunk_overlap=0)
         doc_splits = text_splitter.split_documents(documents)
@@ -120,6 +123,7 @@ class SelfRAG:
             {
                 "transform_query": "transform_query",
                 "generate": "generate",
+                "end": END,
             },
         )
         workflow.add_edge("transform_query", "retrieve")
@@ -127,9 +131,9 @@ class SelfRAG:
             "generate",
             self.grade_generation_v_documents_and_question,
             {
-                "not supported": "generate",
-                "useful": END,
-                "not useful": "transform_query",
+                "not supported": "generate", # hallucinations
+                "useful": END, # if is useful
+                "not useful": "transform_query", # if not hallucinations, is it useful
             },
         )
 
@@ -147,33 +151,33 @@ class SelfRAG:
         """
         question = state["question"]
         print(f"\n---RETRIEVE---\nQuestion: {question}")
-        
+
         # Retrieve top 50 documents
-        documents = self.vectorstore.similarity_search_with_relevance_scores(question, k=50)
-        
-        # Extract scores
-        scores = np.array([score for _, score in documents])
-        
-        # Calculate statistical measures
-        mean_score = np.mean(scores)
-        std_score = np.std(scores)
-        z_scores = stats.zscore(scores)
-        
-        # Define thresholds
-        score_threshold = mean_score + 0.3 * std_score
-        z_score_threshold = 0.9
-        
-        # Filter documents based on statistical measures
-        relevant_documents = [
-            doc for doc, score, z in zip(documents, scores, z_scores)
-            if score > score_threshold or z > z_score_threshold
-        ]
-        
+        relevant_documents = self.vectorstore.similarity_search_with_relevance_scores(question, k=5)
+
+        # # Extract scores
+        # scores = np.array([score for _, score in documents]) 
+
+        # # Calculate statistical measures
+        # mean_score = np.mean(scores)
+        # std_score = np.std(scores)
+        # z_scores = stats.zscore(scores)
+
+        # # Define thresholds
+        # score_threshold = mean_score + 0.8 * std_score
+        # z_score_threshold = 1.4
+
+        # # Filter documents based on statistical measures
+        # relevant_documents = [
+        #     doc for doc, score, z in zip(documents, scores, z_scores)
+        #     if score > score_threshold or z > z_score_threshold
+        # ]
+
         print(f"Retrieved {len(relevant_documents)} relevant documents")
-        print(f"Mean score: {mean_score:.4f}, Std: {std_score:.4f}")
-        print(f"Score threshold: {score_threshold:.4f}, Z-score threshold: {z_score_threshold:.4f}")
-        
-        return {"documents": [doc for doc, _ in relevant_documents], "question": question}
+        # print(f"Mean score: {mean_score:.4f}, Std: {std_score:.4f}")
+        # print(f"Score threshold: {score_threshold:.4f}, Z-score threshold: {z_score_threshold:.4f}")
+
+        return {**state, "documents": [doc for doc, _ in relevant_documents]}
 
     def grade_documents(self, state: GraphState) -> GraphState:
         """
@@ -208,7 +212,7 @@ class SelfRAG:
                 filtered_docs.append(d)
 
         print(f"Filtered to {len(filtered_docs)} relevant documents")
-        return {"documents": filtered_docs, "question": question}
+        return {**state, "documents": filtered_docs}
 
     def generate(self, state: GraphState) -> GraphState:
         """
@@ -225,8 +229,10 @@ class SelfRAG:
         print("\n---GENERATE---")
 
         prompt = ChatPromptTemplate.from_messages([
-            ("system", "You are an AI assistant tasked with answering questions based on the provided context. "
-                       "Ensure your response is directly relevant to the question and grounded in the given information."),
+            ("system", "You are an assistant tasked with answering questions based on the provided context. "
+                       "Ensure your response is directly relevant to the question and grounded in the given information."
+                       "If you don't know the answer, just say that you don't know." 
+                       "Use five sentences maximum and keep the answer concise."),
             ("human", "Context:\n{context}\n\nQuestion: {question}\n\nProvide a comprehensive answer:"),
         ])
         rag_chain = prompt | self.llm | StrOutputParser()
@@ -234,7 +240,7 @@ class SelfRAG:
         context = "\n\n".join([doc.page_content for doc in documents])
         generation = rag_chain.invoke({"context": context, "question": question})
         print(f"Generated answer:\n{generation}")
-        return {"documents": documents, "question": question, "generation": generation}
+        return {**state, "generation": generation}
 
     def transform_query(self, state: GraphState) -> GraphState:
         """
@@ -248,7 +254,8 @@ class SelfRAG:
         """
         question = state["question"]
         documents = state["documents"]
-        print("\n---TRANSFORM QUERY---")
+        transform_count = state.get("transform_count", 0) + 1
+        print(f"\n---TRANSFORM QUERY (Attempt {transform_count})---")
 
         system = """You are an expert at reformulating questions to improve information retrieval.
             Analyze the input question and create a version that is more likely to match relevant documents.
@@ -261,21 +268,29 @@ class SelfRAG:
         question_rewriter = re_write_prompt | self.llm | StrOutputParser()
         better_question = question_rewriter.invoke({"question": question})
         print(f"Transformed question: {better_question}")
-        return {"documents": documents, "question": better_question}
+        return {**state, "question": better_question, "transform_count": transform_count}
 
     def decide_to_generate(self, state: GraphState) -> str:
         """
-        Decide whether to generate an answer or transform the query.
+        Decide whether to generate an answer, transform the query, or end the process.
 
         Args:
             state (GraphState): Current state of the graph.
 
         Returns:
-            str: Decision to generate or transform query.
+            str: Decision to generate, transform query, or end.
         """
         filtered_documents = state["documents"]
-        decision = "generate" if filtered_documents else "transform_query"
-        print(f"\n---DECISION: {'GENERATE' if decision == 'generate' else 'TRANSFORM QUERY'}---")
+        transform_count = state.get("transform_count", 0)
+        
+        if filtered_documents:
+            decision = "generate"
+        elif transform_count < 1:
+            decision = "transform_query"
+        else:
+            decision = "end"
+        
+        print(f"\n---DECISION: {decision.upper()}---")
         return decision
 
     def grade_generation_v_documents_and_question(self, state: GraphState) -> str:
@@ -324,32 +339,32 @@ class SelfRAG:
         else:
             return "not supported"
 
-    def get_relevant_evidence_ids(self, question: str) -> List[int]:
+    def get_relevant_evidence(self, question: str) -> List[Dict[str, Union[int, str]]]:
         """
-        Get relevant evidence IDs for a given question.
+        Get relevant evidence for a given question.
 
         Args:
             question (str): The input question.
 
         Returns:
-            List[int]: List of relevant evidence IDs.
+            List[Dict[str, Union[int, str]]]: List of relevant evidence with IDs and descriptions.
         """
-        inputs = {"question": question, "documents": [], "generation": "", "evidence_ids": []}
-        
+        inputs = {"question": question, "documents": [], "generation": "", "evidence": [], "transform_count": 0}
+
         for output in self.workflow.stream(inputs):
+            if "end" in output:
+                return []
             if "generate" in output:
                 relevant_docs = output["generate"]["documents"]
-                evidence_ids = [doc.metadata["evidence_id"] for doc in relevant_docs]
-                return evidence_ids
+                if not relevant_docs:
+                    return []
+                evidence = []
+                for doc in relevant_docs:
+                    evidence_id = doc.metadata["evidence_id"]
+                    evidence.append({
+                        "evidence_id": evidence_id,
+                        "description": self.evidence_data[evidence_id]
+                    })
+                return evidence
 
         return []
-
-
-# Example usage
-if __name__ == "__main__":
-    self_rag = SelfRAG("gpt-3.5-turbo", "text-embedding-ada-002")
-    self_rag.load_documents("random_file.json")
-    
-    question = "What are the effects of crizotinib on lung adenocarcinoma?"
-    relevant_evidence_ids = self_rag.get_relevant_evidence_ids(question)
-    print(f"\nRelevant evidence IDs: {relevant_evidence_ids}")
