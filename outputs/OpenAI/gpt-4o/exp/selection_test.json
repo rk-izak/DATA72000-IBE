@@ -20,7 +20,7 @@
     "generated_explanation": "Claim A is selected because it is strongly supported by multiple pieces of evidence demonstrating the effectiveness of larotrectinib in patients with ETV6-NTRK3 fusion. The evidence includes clinical studies and case reports showing reduced tumor burden and remission, making the observed facts more expected under this claim. In contrast, Claim B lacks specific evidence in the provided list, making it less compelling as an explanation for the observed outcomes."
   },
   {
-    "selected_claim": "Claim A",
+    "selected_claim": "A",
     "generated_explanation": "Claim A is selected because the evidence robustly supports the sensitivity of non-small cell lung cancer with the EGFR L858R mutation to erlotinib. Clinical trials have consistently shown that patients with this mutation experience significant benefits from erlotinib treatment, aligning with the drug's mechanism of action. This makes Claim A a credible explanation for the observed clinical outcomes, enhancing its explanatory power."
   },
   {

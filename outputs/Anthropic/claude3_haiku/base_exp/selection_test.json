@@ -8,11 +8,11 @@
     "generated_explanation": ""
   },
   {
-    "selected_claim": "Claim B",
+    "selected_claim": "B",
     "generated_explanation": "Claim B is likely the claim with higher explanatory power compared to Claim A. While the specific details of the claims and evidence are not provided, the context on explanatory power suggests that the claim with higher explanatory power would be the one that can better explain the observed facts and phenomena, offer a more comprehensive and logically consistent explanation, an"
   },
   {
-    "selected_claim": "Claim B",
+    "selected_claim": "B",
     "generated_explanation": "Claim B provides the superior explanation for the available evidence, as it has greater explanatory power compared to Claim A. Explanatory power refers to the ability of a hypothesis or claim to account for the evidence and exclude alternative explanations. The evidence presented supports Claim B's assertion that the observed phenomenon is better explained by a new underlying mechanism or process, rather than the existing model proposed in Claim A. Claim B's explanation is more comprehensive and can better explain the observed data, while Claim A's explanation appears to have gaps or limitations in fully accounting for the evidence. Therefore, based on the concept of explanatory power, Claim B is the more appropriate and well-supported claim given the available information."
   },
   {
@@ -88,7 +88,7 @@
     "generated_explanation": "Claim B, which states that ependymomas with ZFTA fusions are distinct from those with NTRK3 fusions, has the higher explanatory power based on the provided evidence and background knowledge. The evidence indicates that ependymomas with ZFTA fusions and those with NTRK3 fusions have distinct clinical and molecular features, suggesting they are bi"
   },
   {
-    "selected_claim": "Claim A",
+    "selected_claim": "A",
     "generated_explanation": "Claim A is the more appropriate claim based on the available evidence and the concept of explanatory power. Claim A states that the gene mutation responsible for Von Hippel-Lindau disease is a loss-of-function mutation, which is better supported by the evidence that the mutation leads to the development of various tumors and cysts. This explanation has greater explanatory power, as it can coherently account for the observed facts and the underlying mechanisms of the disease, compared to Claim B's assertion of a gain-of-function mutation. The evidence suggests that the loss of the tumor suppressor function of the VHL gene is the primary driver of the disease, making Claim A a more comprehensive and plausible explanation."
   },
   {
@@ -100,7 +100,7 @@
     "generated_explanation": ""
   },
   {
-    "selected_claim": "Claim B",
+    "selected_claim": "B",
     "generated_explanation": "Claim B, which proposes that the VHL gene mutation leads to the overproduction of HIF-1\u03b1, has the highest explanatory power to account for the observed facts and evidence. The evidence shows that VHL disease is characterized by the development of various tumors, which aligns with the mechanism proposed in Claim B. The overproduction of HIF-1\u03b1, a key regulator of angiogenesis and cell growth, can explain the increased vascularization and uncontrolled cell proliferation observed in VHL disease. This claim is more plausible and comprehensive compared to Claim A, which does not adequately explain the underlying mechanisms behind the observed clinical manifestations of VHL disease."
   },
   {
@@ -116,7 +116,7 @@
     "generated_explanation": ""
   },
   {
-    "selected_claim": "Claim A",
+    "selected_claim": "A",
     "generated_explanation": "Claim A provides a comprehensive explanation for the observed increase in global temperatures by attributing it to the well-established scientific understanding of the greenhouse effect and the role of human-caused greenhouse gas emissions. The claim is supported by a large body of evidence from various scientific sources and can account for the majority of the observed warming."
   }
 ]
