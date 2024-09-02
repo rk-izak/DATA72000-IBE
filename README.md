@@ -132,73 +132,68 @@ For detailed usage instructions, again, please refer to the `README.md` file wit
 
 For brevity, this section includes examples from the `results/` folder to illustrate the expected formatting, as well as to showcase some notable results and figures.
 
----
-
 ### Architectures
 
 ---
 
-<div style="text-align: center;">
-    <figure>
-        <img src="figures/architectures/sda.drawio.png" alt="Adapted Self-Discover workflow with reasoning modules" style="width: 70%; max-width: 800px;">
-        <figcaption><b>Figure 1:</b> Adapted Self-Discover workflow with reasoning modules</figcaption>
-    </figure>
+<div align="center">
+    <img src="figures/architectures/sda.drawio.png" alt="Adapted Self-Discover workflow with reasoning modules" style="width: 70%; max-width: 800px;">
+    <p><strong>Figure 1:</strong> Adapted Self-Discover workflow with reasoning modules</p>
 </div>
 
 ---
 
-<div style="text-align: center;">
-    <figure>
-        <img src="figures/architectures/rag.drawio.png" alt="Self-RAG Workflow" style="width: 70%; max-width: 800px;">
-        <figcaption><b>Figure 2:</b> Self-RAG Workflow</figcaption>
-    </figure>
+<div align="center">
+    <img src="figures/architectures/rag.drawio.png" alt="Self-RAG Workflow" style="width: 70%; max-width: 800px;">
+    <p><strong>Figure 2:</strong> Self-RAG Workflow</p>
 </div>
 
 ---
-
 
 ### Tables
 
 ---
 
-**Table 1: GPT-4O - Missing Evidence Test**
-
 <div align="center">
+<p><strong>Table 1: GPT-4O - Missing Evidence Test</strong></p>
 
-| Metric                   | Base   | EXP    | COH    | Base+EXP | Base+EXP+COH | **Relative Gain** |
-|--------------------------|--------|--------|--------|----------|--------------|---------------|
-| BERTScore (F1)           | <u>0.5946</u> | 0.5886 | <u>0.5946</u> | 0.5878   | 0.5917       | **0.00%**         |
-| BERTScore (Precision)    | 0.5792 | 0.5767 | 0.5861 | 0.5722   | <u>0.5807</u>       | **1.19%**         |
-| BERTScore (Recall)       | <u>0.6131</u> | 0.6037 | 0.6059 | 0.6076   | 0.6072       | **0.00%**         |
-| Fluency                  | 0.7983 | <u>0.8066</u> | 0.7996 | <u>0.8189</u>   | 0.7740       | **2.58%**         |
-| Coherence                | <u>0.8515</u> | 0.8253 | 0.7953 | 0.7868   | 0.8089       | **0.00%**         |
-| Explanation Accuracy     | 0.8313 | 0.8308 | <u>0.8324</u> | 0.8373   | <u>0.8405</u>       | **1.11%**         |
-| Explanation Completeness | 0.6622 | 0.6634 | 0.6602 | 0.6671   | <u>0.6771</u>       | **2.25%**         |
-| Claim Accuracy           | 0.8483 | 0.8477 | <u>0.8510</u> | 0.8434   | 0.8490       | **0.31%**         |
-| Claim Support            | 1.8774 | 1.7140 | 1.8164 | 1.7415   | <u>2.0106</u>       | **7.09%**         |
-| Fact Verification        | 1.0035 | 1.0278 | 0.9918 | <u>1.0439</u>   | 1.0425       | **4.02%**         |
-
+<table>
+<tr>
+<th>Metric</th><th>Base</th><th>EXP</th><th>COH</th><th>Base+EXP</th><th>Base+EXP+COH</th><th><strong>Relative Gain</strong></th>
+</tr>
+<tr><td>BERTScore (F1)</td><td><u>0.5946</u></td><td>0.5886</td><td><u>0.5946</u></td><td>0.5878</td><td>0.5917</td><td><strong>0.00%</strong></td></tr>
+<tr><td>BERTScore (Precision)</td><td>0.5792</td><td>0.5767</td><td>0.5861</td><td>0.5722</td><td><u>0.5807</u></td><td><strong>1.19%</strong></td></tr>
+<tr><td>BERTScore (Recall)</td><td><u>0.6131</u></td><td>0.6037</td><td>0.6059</td><td>0.6076</td><td>0.6072</td><td><strong>0.00%</strong></td></tr>
+<tr><td>Fluency</td><td>0.7983</td><td><u>0.8066</u></td><td>0.7996</td><td><u>0.8189</u></td><td>0.7740</td><td><strong>2.58%</strong></td></tr>
+<tr><td>Coherence</td><td><u>0.8515</u></td><td>0.8253</td><td>0.7953</td><td>0.7868</td><td>0.8089</td><td><strong>0.00%</strong></td></tr>
+<tr><td>Explanation Accuracy</td><td>0.8313</td><td>0.8308</td><td><u>0.8324</u></td><td>0.8373</td><td><u>0.8405</u></td><td><strong>1.11%</strong></td></tr>
+<tr><td>Explanation Completeness</td><td>0.6622</td><td>0.6634</td><td>0.6602</td><td>0.6671</td><td><u>0.6771</u></td><td><strong>2.25%</strong></td></tr>
+<tr><td>Claim Accuracy</td><td>0.8483</td><td>0.8477</td><td><u>0.8510</u></td><td>0.8434</td><td>0.8490</td><td><strong>0.31%</strong></td></tr>
+<tr><td>Claim Support</td><td>1.8774</td><td>1.7140</td><td>1.8164</td><td>1.7415</td><td><u>2.0106</u></td><td><strong>7.09%</strong></td></tr>
+<tr><td>Fact Verification</td><td>1.0035</td><td>1.0278</td><td>0.9918</td><td><u>1.0439</u></td><td>1.0425</td><td><strong>4.02%</strong></td></tr>
+</table>
 </div>
 
 ---
 
-**Table 2: GPT3.5-TURBO - Baseline Test**
-
 <div align="center">
+<p><strong>Table 2: GPT3.5-TURBO - Baseline Test</strong></p>
 
-| Metric                   | Base   | EXP    | COH    | Base+EXP | Base+EXP+COH | **Relative Gain** |
-|--------------------------|--------|--------|--------|----------|--------------|---------------|
-| BERTScore (F1)           | 0.5097 | 0.5409 | 0.4091 | 0.5112   | <u>0.5500</u>       | **7.91%**         |
-| BERTScore (Precision)    | 0.5158 | 0.5499 | 0.4191 | 0.5210   | <u>0.5589</u>       | **8.34%**         |
-| BERTScore (Recall)       | 0.5066 | 0.5344 | 0.4012 | 0.5038   | <u>0.5438</u>       | **7.33%**         |
-| Fluency                  | 0.6242 | <u>0.7169</u> | 0.5228 | 0.6770   | 0.7071       | **14.86%**        |
-| Coherence                | 0.8110 | 0.6757 | 0.6489 | 0.5018   | <u>0.8753</u>       | **7.92%**         |
-| Explanation Accuracy     | 0.6946 | <u>0.7477</u> | 0.5919 | 0.7141   | 0.7887       | **13.56%**        |
-| Explanation Completeness | 0.5461 | 0.5993 | 0.4455 | 0.5561   | <u>0.6077</u>       | **11.28%**        |
-| Claim Accuracy           | 0.7264 | 0.7692 | 0.6225 | 0.7436   | <u>0.7950</u>       | **9.44%**         |
-| Claim Support            | 1.6526 | 1.5675 | 1.1790 | <u>1.6814</u>   | 1.6293       | **1.74%**         |
-| Fact Verification        | 0.8975 | 0.8762 | 0.6495 | 0.8519   | <u>0.9216</u>       | **2.68%**         |
-
+<table>
+<tr>
+<th>Metric</th><th>Base</th><th>EXP</th><th>COH</th><th>Base+EXP</th><th>Base+EXP+COH</th><th><strong>Relative Gain</strong></th>
+</tr>
+<tr><td>BERTScore (F1)</td><td>0.5097</td><td>0.5409</td><td>0.4091</td><td>0.5112</td><td><u>0.5500</u></td><td><strong>7.91%</strong></td></tr>
+<tr><td>BERTScore (Precision)</td><td>0.5158</td><td>0.5499</td><td>0.4191</td><td>0.5210</td><td><u>0.5589</u></td><td><strong>8.34%</strong></td></tr>
+<tr><td>BERTScore (Recall)</td><td>0.5066</td><td>0.5344</td><td>0.4012</td><td>0.5038</td><td><u>0.5438</u></td><td><strong>7.33%</strong></td></tr>
+<tr><td>Fluency</td><td>0.6242</td><td><u>0.7169</u></td><td>0.5228</td><td>0.6770</td><td>0.7071</td><td><strong>14.86%</strong></td></tr>
+<tr><td>Coherence</td><td>0.8110</td><td>0.6757</td><td>0.6489</td><td>0.5018</td><td><u>0.8753</u></td><td><strong>7.92%</strong></td></tr>
+<tr><td>Explanation Accuracy</td><td>0.6946</td><td><u>0.7477</u></td><td>0.5919</td><td>0.7141</td><td>0.7887</td><td><strong>13.56%</strong></td></tr>
+<tr><td>Explanation Completeness</td><td>0.5461</td><td>0.5993</td><td>0.4455</td><td>0.5561</td><td><u>0.6077</u></td><td><strong>11.28%</strong></td></tr>
+<tr><td>Claim Accuracy</td><td>0.7264</td><td>0.7692</td><td>0.6225</td><td>0.7436</td><td><u>0.7950</u></td><td><strong>9.44%</strong></td></tr>
+<tr><td>Claim Support</td><td>1.6526</td><td>1.5675</td><td>1.1790</td><td><u>1.6814</u></td><td>1.6293</td><td><strong>1.74%</strong></td></tr>
+<tr><td>Fact Verification</td><td>0.8975</td><td>0.8762</td><td>0.6495</td><td>0.8519</td><td><u>0.9216</u></td><td><strong>2.68%</strong></td></tr>
+</table>
 </div>
 
 ---
@@ -207,59 +202,48 @@ For brevity, this section includes examples from the `results/` folder to illust
 
 ---
 
-<div style="text-align: center;">
-    <figure>
-        <img src="figures/graphs/density_plots/GPT-4O/baseline_density_plots.png" alt="Density Plot" style="width: 70%; max-width: 800px;">
-        <figcaption><b>Figure 3:</b> Density Plots for Evaluation Metrics for GPT-4O for all 5 tested Agents (Baseline Test)</figcaption>
-    </figure>
+<div align="center">
+    <img src="figures/graphs/density_plots/GPT-4O/baseline_density_plots.png" alt="Density Plot" style="width: 70%; max-width: 800px;">
+    <p><strong>Figure 3:</strong> Density Plots for Evaluation Metrics for GPT-4O for all 5 tested Agents (Baseline Test)</p>
 </div>
 
 ---
 
-<div style="text-align: center;">
-    <figure>
-        <img src="figures/graphs/boxplots/GPT3.5-TURBO/full_data_noid_boxplots.png" alt="Boxplots" style="width: 70%; max-width: 800px;">
-        <figcaption><b>Figure 4:</b> Boxplots for Evaluation Metrics for GPT3.5-Turbo for all 5 tested Agents (R4C Test)</figcaption>
-    </figure>
+<div align="center">
+    <img src="figures/graphs/boxplots/GPT3.5-TURBO/full_data_noid_boxplots.png" alt="Boxplots" style="width: 70%; max-width: 800px;">
+    <p><strong>Figure 4:</strong> Boxplots for Evaluation Metrics for GPT3.5-Turbo for all 5 tested Agents (R4C Test)</p>
 </div>
 
 ---
 
-<div style="text-align: center;">
-    <figure>
-        <img src="figures/graphs/radar_plots/GPT-4O-MINI/mixed_radar_plot.png" alt="Radar plots" style="width: 70%; max-width: 800px;">
-        <figcaption><b>Figure 5:</b> Radar plots for Evaluation Metrics for GPT-4O-Mini for all 5 tested Agents (Mixed Test)</figcaption>
-    </figure>
+<div align="center">
+    <img src="figures/graphs/radar_plots/GPT-4O-MINI/mixed_radar_plot.png" alt="Radar plots" style="width: 70%; max-width: 800px;">
+    <p><strong>Figure 5:</strong> Radar plots for Evaluation Metrics for GPT-4O-Mini for all 5 tested Agents (Mixed Test)</p>
 </div>
 
 ---
 
-<div style="text-align: center;">
-    <figure>
-        <img src="figures/graphs/performance_comparison/wrong_evidence_performance_comparison.png" alt="Performance Comparison" style="width: 70%; max-width: 800px;">
-        <figcaption><b>Figure 6:</b> Performance Comparison across Evaluation Metrics for all LLMs, for all 5 tested Agents (Wrong Evidence Test)</figcaption>
-    </figure>
+<div align="center">
+    <img src="figures/graphs/performance_comparison/wrong_evidence_performance_comparison.png" alt="Performance Comparison" style="width: 70%; max-width: 800px;">
+    <p><strong>Figure 6:</strong> Performance Comparison across Evaluation Metrics for all LLMs, for all 5 tested Agents (Wrong Evidence Test)</p>
 </div>
 
 ---
 
-<div style="text-align: center;">
-    <figure>
-        <img src="figures/graphs/heatmaps/CLAUDE3_HAIKU/missing_evidence_heatmap.png" alt="Heatmaps" style="width: 70%; max-width: 800px;">
-        <figcaption><b>Figure 7:</b> Heatmaps for Evaluation Metrics for Claude3 Haiku for all 5 tested Agents (Missing Evidence Test)</figcaption>
-    </figure>
+<div align="center">
+    <img src="figures/graphs/heatmaps/CLAUDE3_HAIKU/missing_evidence_heatmap.png" alt="Heatmaps" style="width: 70%; max-width: 800px;">
+    <p><strong>Figure 7:</strong> Heatmaps for Evaluation Metrics for Claude3 Haiku for all 5 tested Agents (Missing Evidence Test)</p>
 </div>
 
 ---
 
-<div style="text-align: center;">
-    <figure>
-        <img src="figures/graphs/correlation_heatmaps/CLAUDE3_HAIKU/assignment_test_correlation_heatmap.png" alt="Correlation Heatmaps" style="width: 70%; max-width: 800px;">
-        <figcaption><b>Figure 8:</b> Correlation Heatmaps for Evaluation Metrics for Claude3 Haiku for all 5 tested Agents (Assignment Test)</figcaption>
-    </figure>
+<div align="center">
+    <img src="figures/graphs/correlation_heatmaps/CLAUDE3_HAIKU/assignment_test_correlation_heatmap.png" alt="Correlation Heatmaps" style="width: 70%; max-width: 800px;">
+    <p><strong>Figure 8:</strong> Correlation Heatmaps for Evaluation Metrics for Claude3 Haiku for all 5 tested Agents (Assignment Test)</p>
 </div>
 
 ---
+
 
 
 ## Code Attribution
