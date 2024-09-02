@@ -155,6 +155,7 @@ class SelfRAG:
         # Retrieve top 50 documents
         relevant_documents = self.vectorstore.similarity_search_with_relevance_scores(question, k=5)
 
+        # SCORE-BASED FILTER - UNUSED
         # # Extract scores
         # scores = np.array([score for _, score in documents]) 
 

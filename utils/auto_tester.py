@@ -10,7 +10,8 @@ class AutomaticTester:
     A class for automatically testing and evaluating language models on various tasks.
     """
 
-    def __init__(self, sda_agent: Any, rag_agent: Any, input_filepath: str, output_filepath: str):
+    def __init__(self, sda_agent: Any, rag_agent: Any, input_filepath: str, output_filepath: str, num_questions: int=2,
+                 extract_model: str='gpt-4o-mini'):
         """
         Initialize the AutomaticTester.
 
@@ -19,11 +20,15 @@ class AutomaticTester:
             rag_agent: The agent for retrieving relevant evidence.
             input_filepath: Path to the input JSON file.
             output_filepath: Path to save the output results.
+            num_questions: No. of questions to be passed to RAG.
+            extract_model: OpenAI model type for data extraction.
         """
         self.sda_agent = sda_agent
         self.rag_agent = rag_agent
         self.input_filepath = input_filepath
         self.output_filepath = output_filepath
+        self.num_questions = num_questions
+        self.extract_model = extract_model
         print(f"\n--- INITIALIZING AUTOMATIC TESTER ---")
         print(f"Input filepath: {input_filepath}")
         print(f"Output filepath: {output_filepath}")
@@ -156,7 +161,7 @@ class AutomaticTester:
         """
         print(f"\n--- EXTRACTING QUESTIONS ---")
         print(f"Extracting {n} questions from the generated text")
-        llm = ChatOpenAI(model="gpt-4o-mini")
+        llm = ChatOpenAI(model=self.extract_model)
         prompt = ChatPromptTemplate.from_template(
             """Extract {n} question(s) from the following text. Do not paraphrase or in any other way change them. Simply extract them.
             These should be found at the end of the provided text with the word "Question" before each.
@@ -207,7 +212,7 @@ class AutomaticTester:
         """
         print(f"\n--- EXTRACTING EXPLANATION AND EVIDENCE ---")
         print(f"Task Type: {task_type}")
-        llm = ChatOpenAI(model="gpt-4o-mini")
+        llm = ChatOpenAI(model=self.extract_model)
 
         prompt_template = self._get_prompt_template(task_type)
         prompt = ChatPromptTemplate.from_template(prompt_template)
@@ -432,9 +437,9 @@ class AutomaticTester:
     def _process_rag(self, entry: str, existing_evidence_ids: set) -> List[Dict[str, Any]]:
         """Helper method to process RAG and get unique evidence."""
         print("\n--- GENERATING QUESTIONS FOR RAG ---")
-        q_task = self.generate_questions(entry, n=2)
+        q_task = self.generate_questions(entry, n=self.num_questions)
         q_result = self.sda_agent.solve(q_task)
-        questions = self.extract_questions(q_result['answer'], n=2)
+        questions = self.extract_questions(q_result['answer'], n=self.num_questions)
         print("Generated Questions:")
         for q_num, q_text in questions.items():
             print(f"{q_num}: {q_text}")
