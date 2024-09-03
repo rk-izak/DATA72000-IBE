@@ -85,7 +85,7 @@ In general, the testing workflow can be described as follows:
 - **`2. Explanation Generation`**: The Agent then receives complete task prompt, alongside relevant claim(s) and evidence, and is asked to complete the specific task and generate an output.
 - **`3. Output Extraction`**: The generated output is then extracted via LLM-assisted Regex and stored in a JSON format in relevant subfolder.
 
-> **Note:** For all tests, `N=2` questions were generated for relevant tasks. The number was chosen as an optimal middle-ground between all agent architectures. Moreover, all Agents used the exact same RAG Agent. Moreover, only `30` Test Cases were chosen for tests from each scenario. For more information about RAG, please refer to the `models/` folder. For more information about the testing engine or prompts used for different tasks, refer to the `utils/` folder. 
+> **Note:** For all tests, `N=2` questions were generated for relevant tasks. The number was chosen as an optimal middle-ground between all agent architectures. All Agents used the exact same RAG Agent. Moreover, only `30` Test Cases were chosen for tests from each scenario. For more information about RAG, please refer to the `models/` folder. For more information about the testing engine or prompts used for different tasks, refer to the `utils/` folder. 
 
 ## Anthropic Subfolder
 
