@@ -81,7 +81,7 @@
       "expected_score": "Lowest"
     }
   ],
-  "claim_support_score": [
+  "claim_accuracy_score": [
     {
       "claim": "ALK inhibitors are effective in ALK-rearranged NSCLC.",
       "generated_explanation": "ALK inhibitors specifically target the aberrant ALK fusion proteins, leading to tumor cell death in ALK-rearranged NSCLC.",
@@ -98,6 +98,23 @@
       "expected_score": "Lowest"
     }
   ],
+  "claim_support_score": [
+    {
+      "claim": "ALK inhibitors are effective in ALK-rearranged NSCLC.",
+      "generated_explanation": "Clinical trials have shown that ALK inhibitors significantly improve outcomes in patients with ALK-rearranged NSCLC by targeting the ALK fusion gene.",
+      "expected_score": "Highest"
+    },
+    {
+      "claim": "ALK inhibitors are effective in ALK-rearranged NSCLC.",
+      "generated_explanation": "ALK inhibitors have shown some level of efficacy in various types of cancers that involve genetic mutations.",
+      "expected_score": "Medium"
+    },
+    {
+      "claim": "ALK inhibitors are effective in ALK-rearranged NSCLC.",
+      "generated_explanation": "ALK inhibitors have virtually no effect regarding ALK-rearranged NSCLC.",
+      "expected_score": "Lowest"
+    }
+  ],  
   "evidence_selection_score": [
     {
       "predicted_evidence_ids": [1, 2, 3, 4],
@@ -117,16 +134,16 @@
   ],
   "coherence_score": [
     {
-      "generated_explanation": "BRAF V600E mutations activate the MAPK pathway. This leads to uncontrolled cell growth. BRAF inhibitors can block this aberrant signaling.",
-      "expected_score": "High"
+        "generated_explanation": "Climate change accelerates due to increased greenhouse gas emissions. This rise in emissions leads to higher global temperatures, causing ice caps to melt. As a result, sea levels rise, threatening coastal communities.",
+        "expected_score": "High"
     },
     {
-      "generated_explanation": "BRAF mutations occur in melanoma. They affect cell signaling. Some drugs can target these mutations.",
-      "expected_score": "Medium"
+        "generated_explanation": "Greenhouse gases are released into the atmosphere. These gases might affect weather patterns. Some initiatives aim to reduce these emissions.",
+        "expected_score": "Medium"
     },
     {
-      "generated_explanation": "BRAF important in cancer. Drugs exist. Melanoma treatment changing. Genetic testing helps.",
-      "expected_score": "Low"
+        "generated_explanation": "Climate change is bad. Factories emit gases. Renewable energy exists. Some people deny climate change.",
+        "expected_score": "Low"
     }
   ],
   "fact_verification_score": [
@@ -142,7 +159,7 @@
     },
     {
       "generated_explanation": "BRCA mutations increase risk of breast and ovarian cancers.",
-      "evidence_texts": ["Smoking is a major cause of lung cancer.", "Exercise can help reduce the risk of some cancers."],
+      "evidence_texts": ["Smoking can be a major cause of lung cancer.", "BRCA mutations affect only some cancers."],
       "expected_score": "Low"
     }
   ],
