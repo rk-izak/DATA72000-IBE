@@ -419,7 +419,7 @@ In general, this process can be described as follows:
 - **`2. Golden Evidence Retrieval`**: All R4C annotated ***facts*** are given to an LLM and any duplicate info is removed (due to annotators repeating facts).
 - **`3. Golden Explanation Generation`**: Retrieved ***golden evidence*** and ***claim*** are given to an LLM and an explanation based evidence is generated to support the claim.
 
-For the LLMs, two currently considered `SOTA` models were used: OpenAI's `GPT-4o` and Anthropic's `Claude3.5 Sonnet`. These were used interchangably in order to reduce specific model bias. For each testcase, the model responsible for generation (of either `golden_evidence`, `claim`, or `explanation` keys) can be seen. 
+For the LLMs, two currently considered `SOTA` models were used: OpenAI's `GPT-4o` and Anthropic's `Claude3.5 Sonnet`. These were used interchangably in order to reduce specific model bias. Their `temperatures` were set at `0.7` in hopes to replicate human-like explanations. For each testcase, the model responsible for generation (of either `golden_evidence`, `claim`, or `explanation` keys) can be seen. 
 
 It is worth noting that the Agents during test see *ONLY* the original HotpotQA `evidence` paragraphs alongside the generated `claim`, but are evaluated against `golden_evidence` where appropriate.
 

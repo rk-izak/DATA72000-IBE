@@ -100,7 +100,7 @@ In general, the process can be described as follows:
 - **`Step 3: Structure Reasoning`**: Model implements a step-by-step reasoning structure with adapted reasoning modules imbued in the steps.
 - **`Step 4: Task Reasoning`**: The model uses previously developed reasoning structure to solve the task and produce the final answer/output.
 
-It is worth noting that `"Step 0"` was not in the original `Self-Discover` paper and was introduced into this project to further help the LLMs when dealing with, often complex and novel to them, epistemic notions. Similarly, `EXP` and `COH` modules were other additions to the framework.
+It is worth noting that `"Step 0"` was not in the original `Self-Discover` paper and was introduced into this project to further help the LLMs when dealing with, often complex and novel to them, epistemic notions. Similarly, `EXP` and `COH` modules were other additions to the framework. Moreover, all LLMs used within had their `temperature to 0` for reproducibility.
 
 For more information regarding more in-depth overview, prompts used, and structure, please refer to the main `report.pdf`, the original `Self-Discover` paper, or the `sda.py` source file.
 
@@ -177,7 +177,7 @@ In general, the process can be described as follows:
 - **`4. Check for Hallucinations`**: LLM checks if answer is based purely on documents provided, or if some parts were hallucinated. If hallucination was noticed, the model generates another answer, otherwise the process continues.
 - **`5. Check for Usefulness`**: LLM checks if the generated answer is useful regarding the questions asked. If it's useful, the model produces its final output (evidence and their IDs); if not, the model transform the question and starts anew.
 
-It is worth noting that the `TRANSFORM QUESTION` can technically occur infinitely, however, for the purposes of this project, the limit was set at `1 Transformation per Question`. After that step if the model cannot generate reasonable output, nothing is returned. Similarly, any method of `Document Retrieval` could be implemented, but here it was decided that simplest `Top K (=5) relevant` was good enough.
+It is worth noting that the `TRANSFORM QUESTION` can technically occur infinitely, however, for the purposes of this project, the limit was set at `1 Transformation per Question`. After that step if the model cannot generate reasonable output, nothing is returned. Similarly, any method of `Document Retrieval` could be implemented, but here it was decided that simplest `Top K (=5) relevant` was good enough. Moreover, all LLMs used within had their `temperature to 0` for reproducibility.
 
 Again, for more information please refer to the main `report.pdf`, the original `Self-RAG` paper, or the `rag.py` source file.
 
