@@ -155,7 +155,7 @@ For brevity, this section includes examples from the `results/` folder to illust
 ---
 
 <div align="center">
-<p><strong>Table 1: GPT-4O - Missing Evidence Test</strong></p>
+<p><strong>Table 1: GPT-4O - Missing Evidence Test Averages</strong></p>
 
 <table>
 <tr>
@@ -177,7 +177,7 @@ For brevity, this section includes examples from the `results/` folder to illust
 ---
 
 <div align="center">
-<p><strong>Table 2: GPT3.5-TURBO - Baseline Test</strong></p>
+<p><strong>Table 2: GPT3.5-TURBO - Baseline Test Averages</strong></p>
 
 <table>
 <tr>
