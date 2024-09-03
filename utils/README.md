@@ -40,17 +40,18 @@ The `scorers_test` subfolder is designed to test the evaluation metrics defined 
 The `utils.py` file defines a set of utility functions and evaluation metrics for assessing the quality of generated explanations in natural language processing tasks. Here's an overview of its main components:
 
 - **Scoring Functions**:
-  - **BERTScore calculation**
-  - **Fluency assessment using perplexity**
-  - **Semantic similarity calculation**
-  - **Natural Language Inference (NLI) scoring**
-  - **Explanation accuracy scoring**
-  - **Claim accuracy and support scoring**
-  - **Evidence selection scoring**
-  - **Coherence scoring**
-  - **Fact verification scoring**
-  - **Explanation completeness scoring**
-  - **Evidence relevance and claim alignment scoring**
+  - **BERTScore**
+  - **Fluency (via perplexity)**
+  - **Semantic similarity**
+  - **Natural Language Inference (NLI)**
+  - **Explanation accuracy**
+  - **Claim accuracy and support**
+  - **Evidence selection**
+  - **Coherence**
+  - **Fact verification**
+  - **Explanation completeness**
+  - **Evidence relevance**
+  - **Claim-evidence alignment**
 
 - **Utility Functions**:
   - **load_json_file**: Loads data from a JSON file.

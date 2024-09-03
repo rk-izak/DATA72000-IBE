@@ -156,11 +156,11 @@ Dfines the `SelfRAG` class, which implements a self-reflective Retrieval-Augment
 - **SelfRAG Class**: Combines retrieval and generation functions to answer questions using LLMs and embeddings.
   
 - **Core Methods**:
-  - **Document Loading**: Loads and prepares a knowledgebase relevant to the task.
+  - **Document Loading and Vectorization**: Loads, prepares, and stores a knowledgebase relevant to the task.
   - **Workflow Graph Creation**: Similar to `sda.py`, creates a graph for managing the sequence of RAG processes.
-  - **Answer Generation and Evaluation**: Generates answers and evaluates them for quality and relevance.
+  - **Answer Generation and Evaluation**: Generates answers and evaluates them for quality and usefulness.
   - **Retrieval and Grading**: Retrieves documents and grades them based on relevance (here, top k=5).
-  - **Query Transformation**: Modifies queries based on initial responses to improve accuracy.
+  - **Query Transformation**: Modifies queries based on initial responses to improve queries.
   - **Evidence Retrieval**: Retrieves relevant evidence to support generated answers.
 
 The general RAG workflow can be seen in the figure below:
