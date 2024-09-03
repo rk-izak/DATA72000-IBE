@@ -243,7 +243,7 @@ For brevity, this section includes examples from the `results/` folder to illust
 </div>
 
 ---
-
+***Note***: The figures/tables above ***might not*** be the exact ones found in the main report as they are complete representations of all data/metrics and are used for showcasing reasons rather than concise report writing.
 
 
 ## Code Attribution
