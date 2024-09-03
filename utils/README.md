@@ -63,7 +63,23 @@ The `utils.py` file defines a set of utility functions and evaluation metrics fo
   - **evaluate_selection_test**: Evaluates explanations for selection tests (`selection` task). Modified `evaluate_explanations` function.
   - **evaluate_assignment_test**: Evaluates explanations for assignment tests (`assignment` task). Modified `evaluate_explanations` function.
 
-These functions calculate multiple metrics for generated explanations and save the results to a JSON file. For more information about each, please refer to the main `report.pdf` or specific function in the `utils.py` file. 
+
+The main eval. functions aggregate and calculate multiple metrics for generated explanations and save the results to a JSON file. For more information about each, please refer to the main `report.pdf` or specific function in the `utils.py` file.
+
+As the metrics evaluate generated text against source text, the following language models accessed via `HuggingFace` website were used in the process:
+
+<div align="center">
+
+| Model Name                                                                 | Description                                    |
+|----------------------------------------------------------------------------|------------------------------------------------|
+| [sentence-transformers/all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) | Used for Sentence Similarity (Semantics) based Metrics |
+| [tasksource/deberta-small-long-nli](https://huggingface.co/tasksource/deberta-small-long-nli) | Used for Natural Language Inference (NLI) based Metrics |
+| [gpt2-medium](https://huggingface.co/openai-community/gpt2-medium)         | Used for Fluency Metric                        |
+| [facebook/bart-large-mnli](https://huggingface.co/facebook/bart-large-mnli) | Used for BERTSCORE                             |
+
+
+</div>
+
 
 > ***Note:*** Not all metrics found in the `utils.py` were used for the final evaluation or report, but were kept for future reference.
 
