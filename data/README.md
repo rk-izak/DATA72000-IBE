@@ -2,7 +2,7 @@
 
 ## Overview
 
-This README provides details about the contents of the `data` folder within this repository. The `data` folder is divided into two subfolders: `CIVIC` and `R4C`. Each subfolder contains raw data, cleaned data, and a Jupyter notebook used for preparing the raw data into clean formats. This `README` aims to explain the structure of these subfolders, the purpose of the different files within them, and provides some examples for clarity.
+This README provides details about the contents of the `data` folder within this repository. The `data` folder is divided into two subfolders: `CIVIC` and `R4C`. Each subfolder contains raw data, cleaned data, and a Jupyter notebook used for preparing the raw data into clean formats. This `README` aims to briefly explain the structure of these subfolders, the purpose of the different files within them, and provides some examples for clarity.
 
 ## Folder Structure
 ```bash

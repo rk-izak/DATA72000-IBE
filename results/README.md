@@ -2,7 +2,7 @@
 
 ## Overview
 
-This `README` provides an overview of the `results` folder within the repository. This folder is divided into three subfolders: `Anthropic`, `OpenAI`, and `notebooks`. Each subfolder contains numerical results and files related to different models, agent types, and testing scenarios. This document will guide you through the folder structure, explain the purpose of each file, and provide examples to clarify their contents.
+This `README` provides an overview of the `results` folder within the repository. This folder is divided into three subfolders: `Anthropic`, `OpenAI`, and `notebooks`. Each subfolder contains numerical results and files related to different models, agent types, and testing scenarios. This document will guide you through the folder structure, briefly explain the purpose of each file, and provide examples to clarify their contents.
 
 
 ## Folder Structure
@@ -91,10 +91,10 @@ Each of these subfolders includes the same set of JSON files as those found in t
 - **anthropic_results.ipynb**: Notebook for testing and analyzing results from the Anthropic model (`Claude3 Haiku`).
 - **openai_results.ipynb**: Notebook for testing and analyzing results from OpenAI models (`GPT-4o`, `GPT-4o-mini`, `GPT-3.5 Turbo`).
 
-These notebooks utilize the `evaluate_explanations` function, which aggregates and automates all evaluation processes. They provide a step-by-step process for testing and evaluating models based on different agent types and scenarios.
+These notebooks utilize the `evaluate_explanations`, `evaluate_assignment_test`, and `evaluate_selection_test` functions, which aggregate and automate all evaluation processes. Notebooks provide a step-by-step process for testing and evaluating models based on different agent types and scenarios.
 
 
-> **Note:** To understand exactly how the evaluation function works and see all the metrics calculated, refer to the `../utils/` folder. This folder contains the implementation of the `evaluate_explanations` function alongside all metrics used for the evaluation process.
+> **Note:** To understand exactly how the evaluation function works and see all the metrics calculated, refer to the `../utils/` folder. This folder contains the implementation of the evaluations functions alongside all metrics used for the scoring process.
 
 ## Example Files
 

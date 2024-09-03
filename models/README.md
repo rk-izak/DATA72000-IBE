@@ -85,8 +85,6 @@ Contains the implementation of the `Self-Discover` framework adapted for LLMs an
   - **Workflow Graph Creation**: Constructs a workflow graph representing the sequence of reasoning steps.
   - **Task Solving**: Solves tasks through iterative intermediate steps.
 
-- **Helper Functions**: Includes utilities for loading JSON data and defining a custom state type for the reasoning process.
-
 The general SDA workflow can be seen in the figure below:
 
 <div align="center">
