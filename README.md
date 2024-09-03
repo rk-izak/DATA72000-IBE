@@ -65,7 +65,7 @@ To evaluate the effectiveness of the proposed approaches, the following were tes
 - **Python Version** `Python 3.10.13`
 - **Dependencies**: see `requirements.txt`
 
-***Note***: The code was ran and tested on `macOS Sonoma 14.6.1`. It should work *as is* on any `Unix/Linux` based system. The author cannot guarantee the code working on `Windows` machines.
+> ***Note***: The code was ran and tested on `macOS Sonoma 14.6.1`. It should work *as is* on any `Unix/Linux` based system. The author cannot guarantee the code working on `Windows` machines.
 
 ### Setup
 
@@ -95,7 +95,7 @@ To evaluate the effectiveness of the proposed approaches, the following were tes
     pip install -r requirements.txt
     ```
 
-***Note***: The created `env` should be used across all `Jupyter Notebooks` within the repository.
+> ***Note***: The created `env` should be used across all `Jupyter Notebooks` within the repository.
 
 ## Repository Structure
 
@@ -112,7 +112,7 @@ A brief overview of the repository contents:
 - **`results/`**: Directory for storing numerical results based on defined metrics - basically `outputs/*` but processed through metrics.
 - **`utils/`**: Contains utility scripts, helper functions, evaluation metrics + unit tests, automatic tester, and basic interactive playground for agents.
 
-***Note***: Each folder contains their own `README.md` file focused on the respective contents. For more information on usage or otherwise, please check them first.
+> ***Note***: Each folder contains their own `README.md` file focused on the respective contents. For more information on usage or otherwise, please check them first.
 
 ## Usage
 
@@ -243,7 +243,7 @@ For brevity, this section includes examples from the `results/` folder to illust
 </div>
 
 ---
-***Note***: The figures/tables above ***might not*** be the exact ones found in the main report as they are complete representations of all data/metrics and are used for showcasing reasons rather than concise report writing.
+> ***Note***: The figures/tables above ***might not*** be the exact ones found in the main report as they are complete representations of all data/metrics and are used for showcasing reasons rather than concise report writing.
 
 
 ## Code Attribution
@@ -286,7 +286,7 @@ This project incorporates and builds upon several key frameworks, models, and da
 
 The author extends his gratitude to the authors of these frameworks, models, and datasets for their contributions to the field and for making their work available to the community.
 
-***Note***: For all other used libraries (both core and minor), please refer to the [References](#references) section, specifically the `Libraries Used` subsection.
+> ***Note***: For all other used libraries (both core and minor), please refer to the [References](#references) section, specifically the `Libraries Used` subsection.
 
 ## References
 
@@ -325,7 +325,7 @@ The author extends his gratitude to the authors of these frameworks, models, and
 - [SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python](https://scipy.org/)
 - [Array programming with NumPy](https://www.nature.com/articles/s41586-020-2649-2)
 
-***Note***: This is **NOT** a complete list of references used for the report and/or the project, but is instead a list of references most relevant to the information found within this repository.
+> ***Note***: This is **NOT** a complete list of references used for the report and/or the project, but is instead a list of references most relevant to the information found within this repository.
 
 ## License
 

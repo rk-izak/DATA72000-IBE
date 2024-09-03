@@ -6,7 +6,7 @@ This `README` provides details about the contents of the models folder within th
 
 ## Folder Structure
 
-```
+```bash
 models/
 │
 ├── reasoning_modules/
@@ -38,7 +38,7 @@ For both concepts, please see the referenced papers for more information.
 
 #### baseline.json
 ---
-```
+```json
 {
     "B1. How could I devise an experiment to help solve that problem?",
     "B2. Make a list of ideas for solving this problem, and apply them one by one to the problem to see if any progress can be made",
@@ -50,7 +50,7 @@ For both concepts, please see the referenced papers for more information.
 
 #### explanatory.json
 
-```
+```json
 {
     "E1. Compare the explanatory power of multiple hypotheses for the same set of evidence. Which one is superior?",
     "E2. Does the hypothesis reduce the surprise associated with the evidence?",
@@ -60,7 +60,7 @@ For both concepts, please see the referenced papers for more information.
 ```
 ---
 #### coherence.json
-```
+```json
 {
     "C1. How can I determine if a set of beliefs or propositions are coherent with each other?",
     "C2. Identify the logical, explanatory, and probabilistic relationships between the beliefs in this set.",
@@ -173,11 +173,11 @@ The general RAG workflow can be seen in the figure below:
 </div>
 
 In general, the process can be described as follows:
-- **`Document Retrieval`**: Top K (in current implementatio K=5) documents are retrieved based on embedding relevance.
-- **`Checking for Relevance`**: If given LLM finds no documents relevant, the original question is transformed and process starts anew, otherwise process continues.
-- **`Answer Generation`**: LLM generates an answer to the (transformed or not) question based on relevant documents.
-- **`Check for Hallucinations`**: LLM checks if answer is based purely on documents provided, or if some parts were hallucinated. If hallucination was noticed, the model generates another answer, otherwise the process continues.
-- **`Check for Usefulness`**: LLM checks if the generated answer is useful regarding the questions asked. If it's useful, the model produces its final output (evidence and their IDs); if not, the model transform the question and starts anew.
+- **`1. Document Retrieval`**: Top K (in current implementatio K=5) documents are retrieved based on embedding relevance.
+- **`2. Checking for Relevance`**: If given LLM finds no documents relevant, the original question is transformed and process starts anew, otherwise process continues.
+- **`3. Answer Generation`**: LLM generates an answer to the (transformed or not) question based on relevant documents.
+- **`4. Check for Hallucinations`**: LLM checks if answer is based purely on documents provided, or if some parts were hallucinated. If hallucination was noticed, the model generates another answer, otherwise the process continues.
+- **`5. Check for Usefulness`**: LLM checks if the generated answer is useful regarding the questions asked. If it's useful, the model produces its final output (evidence and their IDs); if not, the model transform the question and starts anew.
 
 It is worth noting that the `TRANSFORM QUESTION` can technically occur infinitely, however, for the purposes of this project, the limit was set at `1 Transformation per Question`. After that step if the model cannot generate reasonable output, nothing is returned. Similarly, any method of `Document Retrieval` could be implemented, but here it was decided that simplest `Top K (=5) relevant` was good enough.
 

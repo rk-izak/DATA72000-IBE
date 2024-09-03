@@ -7,13 +7,13 @@
         <mxCell id="ccWnFZst2IsXS-5hjGJ8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ccWnFZst2IsXS-5hjGJ8-2" target="ccWnFZst2IsXS-5hjGJ8-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ccWnFZst2IsXS-5hjGJ8-2" value="&lt;b&gt;Question:&amp;nbsp;&lt;/b&gt;&lt;div&gt;What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="ccWnFZst2IsXS-5hjGJ8-2" value="&lt;b&gt;HotpotQA Question:&amp;nbsp;&lt;/b&gt;&lt;div&gt;What is the name of the executive producer of the film that has a score composed by Jerry Goldsmith?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="170" y="210" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ccWnFZst2IsXS-5hjGJ8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ccWnFZst2IsXS-5hjGJ8-3" target="ccWnFZst2IsXS-5hjGJ8-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ccWnFZst2IsXS-5hjGJ8-3" value="&lt;b&gt;Answer:&amp;nbsp;&lt;/b&gt;&lt;div&gt;Ronald Shusett&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="ccWnFZst2IsXS-5hjGJ8-3" value="&lt;b&gt;Hotpot QA Answer:&amp;nbsp;&lt;/b&gt;&lt;div&gt;Ronald Shusett&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="170" y="330" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ccWnFZst2IsXS-5hjGJ8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ccWnFZst2IsXS-5hjGJ8-4" target="ccWnFZst2IsXS-5hjGJ8-6">
@@ -31,7 +31,7 @@
         <mxCell id="ccWnFZst2IsXS-5hjGJ8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ccWnFZst2IsXS-5hjGJ8-6" target="ccWnFZst2IsXS-5hjGJ8-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ccWnFZst2IsXS-5hjGJ8-6" value="&lt;b&gt;Claim:&amp;nbsp;&lt;/b&gt;&lt;div&gt;Ronald Shusett is the executive producer of the film with a score by Jerry Goldsmith&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="ccWnFZst2IsXS-5hjGJ8-6" value="&lt;b&gt;Generated Claim:&amp;nbsp;&lt;/b&gt;&lt;div&gt;Ronald Shusett is the executive producer of the film with a score by Jerry Goldsmith&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="550" y="240" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ccWnFZst2IsXS-5hjGJ8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ccWnFZst2IsXS-5hjGJ8-7" target="ccWnFZst2IsXS-5hjGJ8-12">

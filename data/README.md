@@ -5,7 +5,7 @@
 This README provides details about the contents of the `data` folder within this repository. The `data` folder is divided into two subfolders: `CIVIC` and `R4C`. Each subfolder contains raw data, cleaned data, and a Jupyter notebook used for preparing the raw data into clean formats. This `README` aims to explain the structure of these subfolders, the purpose of the different files within them, and provides some examples for clarity.
 
 ## Folder Structure
-```
+```bash
 data/
 │
 ├── CIVIC/
@@ -19,13 +19,7 @@ data/
 │   │   │   ├── wrong_claim.json
 │   │   │   └── wrong_evidence.json
 │   │   ├── no_context/
-│   │   │   ├── assignment_test.json
-│   │   │   ├── baseline.json
-│   │   │   ├── missing_evidence.json
-│   │   │   ├── mixed.json
-│   │   │   ├── selection_test.json
-│   │   │   ├── wrong_claim.json
-│   │   │   └── wrong_evidence.json
+│   │   │   └── (same file structure as in context/)
 │   ├── raw/
 │   │   ├── 01-Aug-2024-AssertionSummaries.tsv
 │   │   ├── 01-Aug-2024-ClinicalEvidenceSummaries.tsv
@@ -87,7 +81,7 @@ The `CIVIC` subfolder contains data sourced from the CIVIC database (see main `R
   - Given a set of combined evidence (from 3 claims), select the appropriate evidence for each of two claims (A and B) given and generate explanations (more complex version of above).
 - **`wrong_claim.json`**: Data files containing examples where claims are incorrect given evidence, similar to baseline in structure **`(UNUSED)`**.
 
-***Note:*** Expected explanations are the ***golden*** standard that the models outputs would be evaluated against given evidence and claim. The models **DO NOT** see those explanations. For more information, refer to the `prep.ipynb` file, its description below, or the main report.
+> ***Note:*** Expected explanations are the ***golden*** standard that the models outputs would be evaluated against given evidence and claim. The models **DO NOT** see those explanations. For more information, refer to the `prep.ipynb` file, its description below, or the main report.
 
 ### Examples for each tested file
 
@@ -95,7 +89,7 @@ Here, smaller snippets from each file will be shown. The `context/` files will b
 
 ---
 #### evidence_kb.json - meant to mimic an internal database of facts
-```
+```json
 {
   "evidence_id": 1122,
   "description": "HERA was a Phase III (...) the standard of care."
@@ -108,7 +102,7 @@ Here, smaller snippets from each file will be shown. The `context/` files will b
 ```
 ---
 #### baseline.json - also called the **`Baseline Test`**
-```
+```json
 {
   "claim": "HER2 amplification predicts sensitivity to Trastuzumab",
   "explanation": "HER2 amplification (...) standard of care for HER2-positive breast cancer.",
@@ -135,7 +129,7 @@ Here, smaller snippets from each file will be shown. The `context/` files will b
 ---
 
 #### missing_evidence.json - the `missing_evidence` key is hidden from agents, also called the **`Missing Evidence Test`**
-```
+```json
 {
   "claim": "HER2 amplification predicts sensitivity to Trastuzumab",
   "explanation": "HER2 amplification defines a (...) standard of care for HER2-positive breast cancer patients.",
@@ -167,7 +161,7 @@ Here, smaller snippets from each file will be shown. The `context/` files will b
 ---
 #### wrong_evidence.json - the `wrong_evidence` is seen by agents in the same way as `evidence`, also called the **`Wrong Evidence Test`**
 
-```
+```json
 {
   "claim": "HER2 amplification predicts sensitivity to Trastuzumab",
   "explanation": "HER2 amplification defines a (...) standard of care for HER2-positive breast cancer patients.",
@@ -199,7 +193,7 @@ Here, smaller snippets from each file will be shown. The `context/` files will b
 ```
 ---
 #### mixed.json - mix of the two above cases, also called the **`Mixed Evidence Test`**
-```
+```json
 {
   "claim": "HER2 amplification predicts sensitivity to Trastuzumab",
   "explanation": "HER2 amplification defines a (...) standard of care for HER2-positive breast cancer patients.",
@@ -236,7 +230,7 @@ Here, smaller snippets from each file will be shown. The `context/` files will b
 ```
 ---
 #### selection_test.json - claim A is the correct one based on seen evidence, also called the **`Selection Test`**
-```
+```json
 {
   "claim_A": "PAX5 p.P80R as essential diagnostic criteria of the provisional B lymphoblastic leukaemia with PAX5 p.P80R subtype.",
   "claim_B": "ETV6::NTRK3-positive infantile fibrosarcoma tumors are sensitive to larotrectinib.",
@@ -271,7 +265,7 @@ Here, smaller snippets from each file will be shown. The `context/` files will b
 ---
 #### assignment_test.json - evidence is mixed from all claims (A, B, C), but only claims A and B are valid, also called the **`Assignment Test`**
 
-```
+```json
 {
   "claim_A": "BCOR ITD is a desirable diagnostic criteria for clear cell sarcoma of kidney",
   "claim_B": "ETV6-NTRK3–positive B-cell lymphoblastic leukemia patients can be sensitive to larotrectinib",
@@ -350,7 +344,7 @@ For further clarification, the following is the mapping between `JSON` keys and 
   - **JSON**: `Therapies` <-> **CIVIC**: `therapies`
   - **JSON**: `Phenotypes` <-> **CIVIC**: `phenotypes`
 
-***Note:*** For deeper understanding of workflow, motivation, and reasoning please refer to the main `report.pdf` or the `prep.ipynb` Notebook.
+> ***Note:*** For deeper understanding of workflow, motivation, and reasoning please refer to the main `report.pdf` or the `prep.ipynb` Notebook.
 
 ## R4C Subfolder
 
@@ -379,7 +373,7 @@ As only `full_data_noid.json` was used for tests, this will be the only file sho
 
 ---
 #### full_data_noid.json - similar to `baseline.json` in structure and motivation but diluted, also called the **`R4C Test`**
-```
+```json
 {
   "claim": "Eenasul Fateh, known by his stage name Aladin, worked as a consultant to help organizations improve their performance.",
   "model_used": "Anthropic",
@@ -421,12 +415,12 @@ The process of creating these files can be seen in the figure below:
 
 In general, this process can be described as follows:
 
-- **`Claim Generation`**: The relevant Question and Answer are retrieved from HotpotQA and fed through an LLM to generate a claim.
-- **`Golden Evidence Retrieval`**: All R4C annotated ***facts*** are given to an LLM and any duplicate info is removed (due to annotators repeating facts).
-- **`Golden Explanation Generation`**: Retrieved ***golden evidence*** and ***claim*** are given to an LLM and an explanation based evidence is generated to support the claim.
+- **`1. Claim Generation`**: The relevant Question and Answer are retrieved from HotpotQA and fed through an LLM to generate a claim.
+- **`2. Golden Evidence Retrieval`**: All R4C annotated ***facts*** are given to an LLM and any duplicate info is removed (due to annotators repeating facts).
+- **`3. Golden Explanation Generation`**: Retrieved ***golden evidence*** and ***claim*** are given to an LLM and an explanation based evidence is generated to support the claim.
 
 For the LLMs, two currently considered `SOTA` models were used: OpenAI's `GPT-4o` and Anthropic's `Claude3.5 Sonnet`. These were used interchangably in order to reduce specific model bias. For each testcase, the model responsible for generation (of either `golden_evidence`, `claim`, or `explanation` keys) can be seen. 
 
 It is worth noting that the Agents during test see *ONLY* the original HotpotQA `evidence` paragraphs alongside the generated `claim`, but are evaluated against `golden_evidence` where appropriate.
 
-***Note:*** For deeper understanding of workflow, motivation, reasoning, and used prompts please refer to the main `report.pdf` or the `prep.ipynb` Notebook.
+> ***Note:*** For deeper understanding of workflow, motivation, reasoning, and used prompts please refer to the main `report.pdf` or the `prep.ipynb` Notebook.
