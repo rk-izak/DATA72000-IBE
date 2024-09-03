@@ -1,8 +1,10 @@
 [
     "B1. How could I devise an experiment to help solve that problem?",
+    "B2. Make a list of ideas for solving this problem, and apply them one by one to the problem to see if any progress can be made",
     "B3. How could I measure progress on this problem?",
     "B4. How can I simplify the problem so that it is easier to solve?",
     "B5. What are the key assumptions underlying this problem?",
+    "B7. What are the alternative perspectives or viewpoints on this problem?",
     "B8. What are the long-term implications of this problem and its solutions?",
     "B10. Critical Thinking: This style involves analyzing the problem from different perspectives, questioning assumptions, and evaluating the evidence or information available. It focuses on logical reasoning, evidence-based decision-making, and identifying potential biases or flaws in thinking.",
     "B13. Use systems thinking: Consider the problem as part of a larger system and understanding the interconnectedness of various elements. Focuses on identifying the underlying causes, feedback loops, and interdependencies that influence the problem, and developing holistic solutions that address the system as a whole.",
@@ -24,5 +26,7 @@
     "B34. Given the problem specification and the current best solution, have a guess about other possible solutions.",
     "B35. Let's imagine the current best solution is totally wrong, what other ways are there to think about the problem specification?",
     "B36. What is the best way to modify this current best solution, given what you know about these kinds of problem specification?",
-    "B37. Ignoring the current best solution, create an entirely new solution to the problem."
+    "B37. Ignoring the current best solution, create an entirely new solution to the problem.",
+    "B38. Let’s think step by step.",
+    "B39. Let’s make a step by step plan and implement it with good notion and explanation"
 ]

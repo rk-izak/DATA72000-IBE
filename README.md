@@ -46,7 +46,7 @@ This project adapted and tested the [`Self-Discover`](https://arxiv.org/pdf/2402
 1. **Explanatory Power (EP):** Focuses on the strength of explanations and their ability to clarify and justify claims.
 2. **Coherentist Models (CM):** Emphasizes the coherence of explanations by ensuring that all components logically support each other.
 
-Moreover, for some tested scenarios, an instance of slightly modified [`Self-RAG`](https://arxiv.org/pdf/2310.11511) agent was applied across all relevant tests. This agent was used in cases where portions of available evidence where missing. Please, refer to the main `report.pdf` for more information.
+Moreover, for some tested scenarios, an instance of slightly modified [`Self-RAG`](https://arxiv.org/pdf/2310.11511) agent was applied across all relevant tests. This agent was used in cases where portions of available evidence were missing. Please, refer to the main `report.pdf` for more information.
 
 ### Baselines and Comparisons
 

@@ -8,6 +8,8 @@ from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 from langgraph.graph import END, START, StateGraph
 
+# Based on the LangChain implementation
+# SOURCE: https://langchain-ai.github.io/langgraph/tutorials/self-discover/self-discover/
 
 class SelfDiscoverState(TypedDict):
     """Type definition for the state of the SelfDiscovery graph."""

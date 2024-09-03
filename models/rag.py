@@ -16,6 +16,8 @@ from langchain.schema import Document
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 
+# Based on the LangChain implementation
+# SOURCE: https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_self_rag/
 
 class GraphState(TypedDict):
     """Type definition for the state of the RAG graph."""
