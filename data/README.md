@@ -56,7 +56,7 @@ The `CIVIC` subfolder contains data sourced from the CIVIC database (see main `R
   - **`01-Aug-2024-ClinicalEvidenceSummaries.tsv`**: Contains summaries of clinical evidence.
   - **`01-Aug-2024-GeneSummaries.tsv`**: Contains summaries of genes.
   - **`01-Aug-2024-MolecularProfileSummaries.tsv`**: Contains summaries of molecular profiles.
-  - **`01-Aug-2024-VariantGroupSummaries.ts`v**: Contains summaries of variant groups.
+  - **`01-Aug-2024-VariantGroupSummaries.tsv`**: Contains summaries of variant groups.
   - **`01-Aug-2024-VariantSummaries.tsv`**: Contains summaries of variants.
   - **`01-Aug-2024-civic_accepted.vcf`**: A VCF file containing accepted variants **`(UNUSED)`**.
 - **`clean/`**: Contains cleaned and processed data files divided into two categories:
@@ -67,19 +67,27 @@ The `CIVIC` subfolder contains data sourced from the CIVIC database (see main `R
 
 ### Filenames and Task Formulation
 
+---
 - **`baseline.json`**: Baseline data and cases, without any adjustments.
   - Given complete list of evidence and claim, generate explanation.
+---
 - **`missing_evidence.json`**: Data where some evidence is missing for claims.
   - Given incomplete list of evidence and claim, gather additional supporting evidence and generate an explanation.
+---
 - **`wrong_evidence.json`**: Data where some of evidence provided is incorrect/irrelevant.
   - Given partially invalid list of evidence and claim, gather additional supporting evidence and discard wrong ones, and generate an explanation.
+---
 - **`mixed.json`**: Data where some of evidence provided is incorrect/irrelevant and some of the correct evidence is missing.
   - Given partially invalid and incomplete list of evidence and claim, gather additional supporting evidence and discard wrong ones, and generate an explanation.
+---
 - **`selection_test.json`**: Contains data used for claim selection testing based on evidence.
   - Given a set of combined evidence (from 2 claims), select the appropriate evidence for the claim supported (A) and generate an explanation.
+---
 - **`assignment_test.json`**: Contains data used for claim assignment testing based on evidence.
   - Given a set of combined evidence (from 3 claims), select the appropriate evidence for each of two claims (A and B) given and generate explanations (more complex version of above).
+---
 - **`wrong_claim.json`**: Data files containing examples where claims are incorrect given evidence, similar to baseline in structure **`(UNUSED)`**.
+---
 
 > ***Note:*** Expected explanations are the ***golden*** standard that the models outputs would be evaluated against given evidence and claim. The models **DO NOT** see those explanations. For more information, refer to the `prep.ipynb` file, its description below, or the main report.
 
@@ -352,12 +360,19 @@ The R4C subfolder contains data related to R4C, divided into `raw` and `clean` f
 
 - **raw/**: Contains raw data files.
   - **dev_csf.json**: Raw data from the R4C development set.
+  ---
   - **hotpot_dev_fullwiki_v1.json**: Raw data from HotpotQA development set.
+  ---
+
 - **clean/**: Contains processed and cleaned data files.
   - **evidence_golden_kb.json**: Contains evidence data with a golden knowledge base (R4C Annotations) **`(UNUSED)`**.
+  ---
   - **evidence_kb.json**: Contains general evidence data (HotpotQA Paragraphs) **`(UNUSED)`**.
+  ---
   - **full_data.json**: Joined and LLM processed HotpotQA + R4C data **`(UNUSED)`**.
+  ---
   - **full_data_noid.json**: Similar to `full_data.json` but without identifiers (for practicality regarding further usage).
+  ---
 
 Only the `full_data_noid.json` was used in the agent experiments, as such, the rest remains unused, but was kept for practicality.
 

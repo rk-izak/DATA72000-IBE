@@ -27,9 +27,9 @@ The `reasoning_modules` subfolder contains JSON files that define different reas
 ### Structure and Files
 
 - **`baseline.json`**: Contains selected baseline thinking modules from the `Self-Discover` paper. These serve as baseline reasoning strategies for evaluating the performance of other modules and their combinations. Some original modules were dropped due to irrelevance to the task (like `"Try creative thinking, generate innovative (...)"` or `"Seek input and collaboration from others (...)"`) in order to minimise confusion due to longer contexts, to reduce API costs, and to ensure fairness between modules (same number of options).
-
+---
 - **`explanatory.json`**: Specifies reasoning modules that emphasize explanatory power. These are designed to provide deeper explanations that clarify cause-effect relationships and underlying principles of a given system. Those were kept relatively simple to fit the original modules style and formatting.
-
+---
 - **`coherence.json`**: Defines reasoning modules based on the concept of coherence. These modules focus on maintaining logical consistency throughout the reasoning process and among the evidence chosen. Again, those were kept relatively simple and brief.
 
 For both concepts, please see the referenced papers for more information.
@@ -81,8 +81,11 @@ Contains the implementation of the `Self-Discover` framework adapted for LLMs an
   
 - **Core Methods**:
   - **Initialization**: Sets up the system with required parameters and reasoning modules.
+  ---
   - **Loading Prompts**: Loads and processes prompts to guide the reasoning tasks.
+  ---
   - **Workflow Graph Creation**: Constructs a workflow graph representing the sequence of reasoning steps.
+  ---
   - **Task Solving**: Solves tasks through iterative intermediate steps.
 
 The general SDA workflow can be seen in the figure below:
@@ -94,17 +97,25 @@ The general SDA workflow can be seen in the figure below:
 
 In general, the process can be described as follows:
 
+---
 - **`Step 0: Adjusting Task Contextually`**: If either EXP or COH (or both) modules were selected, the model adjusts the task by introducing brief definitions of selected notions into the task description.
+---
 - **`Step 1: Selecting Modules`**: Given the complete (adjusted or not) task statement, the model selects from available/selected reasoning modules based on what it believes would help it solve the task best.
+---
 - **`Step 2: Adapt Selected Modules`**: Again, based on the complete task statement, the model adjusts the chosen reasoning modules to fit the task at hand better.
+---
 - **`Step 3: Structure Reasoning`**: Model implements a step-by-step reasoning structure with adapted reasoning modules imbued in the steps.
+---
 - **`Step 4: Task Reasoning`**: The model uses previously developed reasoning structure to solve the task and produce the final answer/output.
+---
 
 It is worth noting that `"Step 0"` was not in the original `Self-Discover` paper and was introduced into this project to further help the LLMs when dealing with, often complex and novel to them, epistemic notions. Similarly, `EXP` and `COH` modules were other additions to the framework. Moreover, all LLMs used within had their `temperature to 0` for reproducibility.
 
 For more information regarding more in-depth overview, prompts used, and structure, please refer to the main `report.pdf`, the original `Self-Discover` paper, or the `sda.py` source file.
 
 #### Example Usage
+
+---
 
 ```python
 # Python Code
@@ -147,6 +158,7 @@ solution = sda.solve(task)
 print("\nFinal Solution:")
 print(json.dumps(solution, indent=2)) # can skip json formatting
 ```
+---
 
 ### `rag.py`
 Dfines the `SelfRAG` class, which implements a self-reflective Retrieval-Augmented Generation (RAG) system for question answering.
@@ -157,10 +169,15 @@ Dfines the `SelfRAG` class, which implements a self-reflective Retrieval-Augment
   
 - **Core Methods**:
   - **Document Loading and Vectorization**: Loads, prepares, and stores a knowledgebase relevant to the task.
+  ---
   - **Workflow Graph Creation**: Similar to `sda.py`, creates a graph for managing the sequence of RAG processes.
+  ---
   - **Answer Generation and Evaluation**: Generates answers and evaluates them for quality and usefulness.
+  ---
   - **Retrieval and Grading**: Retrieves documents and grades them based on relevance (here, top k=5).
+  ---
   - **Query Transformation**: Modifies queries based on initial responses to improve queries.
+  ---
   - **Evidence Retrieval**: Retrieves relevant evidence to support generated answers.
 
 The general RAG workflow can be seen in the figure below:
@@ -171,11 +188,18 @@ The general RAG workflow can be seen in the figure below:
 </div>
 
 In general, the process can be described as follows:
+
+---
 - **`1. Document Retrieval`**: Top K (in current implementatio K=5) documents are retrieved based on embedding relevance.
+---
 - **`2. Checking for Relevance`**: If given LLM finds no documents relevant, the original question is transformed and process starts anew, otherwise process continues.
+---
 - **`3. Answer Generation`**: LLM generates an answer to the (transformed or not) question based on relevant documents.
+---
 - **`4. Check for Hallucinations`**: LLM checks if answer is based purely on documents provided, or if some parts were hallucinated. If hallucination was noticed, the model generates another answer, otherwise the process continues.
+---
 - **`5. Check for Usefulness`**: LLM checks if the generated answer is useful regarding the questions asked. If it's useful, the model produces its final output (evidence and their IDs); if not, the model transform the question and starts anew.
+---
 
 It is worth noting that the `TRANSFORM QUESTION` can technically occur infinitely, however, for the purposes of this project, the limit was set at `1 Transformation per Question`. After that step if the model cannot generate reasonable output, nothing is returned. Similarly, any method of `Document Retrieval` could be implemented, but here it was decided that simplest `Top K (=5) relevant` was good enough. Moreover, all LLMs used within had their `temperature to 0` for reproducibility.
 
@@ -183,6 +207,7 @@ Again, for more information please refer to the main `report.pdf`, the original 
 
 #### Example Usage
 
+---
 ```python
 # Python Code
 from rag import SelfRAG
@@ -222,3 +247,4 @@ relevant_evidence = rag.get_relevant_evidence(question)
 print("\nFinal Evidence:")
 print(relevant_evidence)
 ```
+---

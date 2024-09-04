@@ -81,9 +81,13 @@ The evidence retrievel from the RAG can be seen in figure below:
 
 In general, the testing workflow can be described as follows:
 
+---
 - **`1. Additional Evidence Retrieval (Optional)`**: Only used for `missing_evidence.json` and `mixed.json` scenarios. Here, the chosen Agent architecture is tasked with generating `N` questions to be answered by `RAG` agent. If any evidence was retrieved, it is added into existing evidence set, while ensuring only unique entries are present.
+---
 - **`2. Explanation Generation`**: The Agent then receives complete task prompt, alongside relevant claim(s) and evidence, and is asked to complete the specific task and generate an output.
+---
 - **`3. Output Extraction`**: The generated output is then extracted via LLM-assisted Regex and stored in a JSON format in relevant subfolder.
+---
 
 > **Note:** For all tests, `N=2` questions were generated for relevant tasks. The number was chosen as an optimal middle-ground between all agent architectures. All Agents used the exact same RAG Agent. Moreover, only `30` Test Cases were chosen for tests from each scenario. For more information about RAG, please refer to the `models/` folder. For more information about the testing engine or prompts used for different tasks, refer to the `utils/` folder. 
 
@@ -94,22 +98,36 @@ The `Anthropic` subfolder contains outputs generated from different agents using
 ### Structure and Files
 
 - **claude3_haiku/**: This folder is divided into five subfolders, each representing a different agent type used in testing:
+
+  ---
   - **base/**: Contains outputs from the Agent with baseline reasoning modules.
+  ---
   - **exp/**: Contains outputs from the Agent with Explanatory Power modules.
+  ---
   - **coh/**: Contains outputs from the Agent with Coherence modules.
+  ---
   - **base_exp/**: Contains outputs from the Agent with Baseline + EXP modules.
+  ---
   - **base_exp_coh/**: Contains outputs from the Agent with Baseline + EXP + COH modules.
+  ---
 
 ### File Descriptions
 
 Each subfolder contains the following JSON files, which are outputs from different scenarios:
 
+---
 - **baseline.json**: Outputs from scenarios where all evidence is present.
+---
 - **missing_evidence.json**: Outputs from scenarios where some evidence is missing.
+---
 - **wrong_evidence.json**: Outputs from scenarios where the parts of evidence provided are incorrect.
+---
 - **mixed.json**: Outputs from scenarios where the parts of evidence provided are incorrect, and some are missing.
+---
 - **selection_test.json**: Outputs from the selection test scenario.
+---
 - **assignment_test.json**: Outputs from the assignment test scenario.
+---
 - **full_data_noid.json**: Similar to `baseline.json`, but based on `R4C` data.
 
 > **Note:** The details about each scenario file, reasoning modules, and architectures used in agents can be found in the `data/` and `models/` folders' `READMEs`, respectively.
@@ -189,9 +207,13 @@ The `notebooks` subfolder contains Jupyter notebooks used for conducting and rep
 ### Notebooks
 
 - **gpt4o_tests.ipynb**: Notebook for testing GPT-4o outputs.
+---
 - **gpt4omini_tests.ipynb**: Notebook for testing GPT-4o-mini outputs.
+---
 - **gpt3.5-turbo_tests.ipynb**: Notebook for testing GPT-3.5 Turbo outputs.
+---
 - **haiku_tests.ipynb**: Notebook for testing Claude model outputs.
+---
 - **sonnet_tests.ipynb**: Another notebook used for testing similar models **`(UNUSED)`**.
 
 > **Note:** Refer to these notebooks to rerun the tests or to see detailed steps on how the tests were conducted or see exact model snapshots used. Also refer to `../utils/automatic_tester.py` to understand the process better if needed, and see relevant prompts used for different tasks (also see the main `report.pdf`).

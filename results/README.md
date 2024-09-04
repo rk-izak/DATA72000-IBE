@@ -54,22 +54,35 @@ The `Anthropic` subfolder contains results from the Claude3 Haiku model. The res
 #### Structure and Files
 
 - **claude3_haiku/**: This main folder is further divided into five subfolders, each corresponding to a specific agent type:
+
+  ---
   - **base/**: Results for the agent with baseline reasoning modules.
+  ---
   - **exp/**: Results for the agent with Explanatory Power modules.
+  ---
   - **coh/**: Results for the agent with Coherence modules.
+  ---
   - **base_exp/**: Results for the agent with Baseline + EXP modules.
+  ---
   - **base_exp_coh/**: Results for the agent with Baseline + EXP + COH modules.
 
 #### File Descriptions
 
 Each agent type folder contains the following JSON files, representing different testing scenarios:
 
+---
 - **baseline.json**: Results for scenarios with all evidence present.
+---
 - **missing_evidence.json**: Results for scenarios where some evidence is missing.
+---
 - **wrong_evidence.json**: Results for scenarios with incorrect evidence.
+---
 - **mixed.json**: Results for scenarios with a mix of correct and missing evidence.
+---
 - **selection_test.json**: Results for the selection test scenario.
+---
 - **assignment_test.json**: Results for the assignment test scenario.
+---
 - **full_data_noid.json**: Results similar to `baseline.json` but based on a R4C data.
 
 These files contain calculated evaluation metrics based on outputs from the agent and test data ("golden" explanations) found in the `data/` folder.
@@ -207,7 +220,9 @@ To better visualise the results and how these files can be used, example table a
 </table>
 </div>
 
+
 ---
+
 
 <div align="center">
     <img src="../figures/graphs/density_plots/GPT-4O/baseline_density_plots.png" alt="Density Plot" style="width: 70%; max-width: 800px;">

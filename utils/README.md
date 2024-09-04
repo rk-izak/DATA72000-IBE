@@ -31,6 +31,8 @@ The `scorers_test` subfolder is designed to test the evaluation metrics defined 
 
 - **scorers_test.ipynb**: A Jupyter notebook used for unit testing all metrics defined in `utils/utils.py`. It loads the `scorers_unit_test.json` file and runs a series of tests to ensure that the scoring functions perform as expected. Also can be used to test different `HuggingFace` models by adjusting them in `utils/utils.py`.
 
+---
+
 - **scorers_unit_test.json**: This JSON file contains simple test cases alongside expected results. It is used to validate the accuracy and reliability of the scoring metrics. Based mostly on the style and formatting of `CIViC` data,
 
 ### Main Files
@@ -41,27 +43,45 @@ The `utils.py` file defines a set of utility functions and evaluation metrics fo
 
 - **Scoring Functions**:
   - **BERTScore**
+  ---
   - **Fluency (via perplexity)**
+  ---
   - **Semantic similarity**
+  ---
   - **Natural Language Inference (NLI)**
+  ---
   - **Explanation accuracy**
+  ---
   - **Claim accuracy and support**
+  ---
   - **Evidence selection**
+  ---
   - **Coherence**
+  ---
   - **Fact verification**
+  ---
   - **Explanation completeness**
+  ---
   - **Evidence relevance**
+  ---
   - **Claim-evidence alignment**
+  ---
 
 - **Utility Functions**:
   - **load_json_file**: Loads data from a JSON file.
+  ---
   - **save_json_file**: Saves data to a JSON file.
+  ---
   - **set_api_key**: Sets API keys as environment variables based on the `keys.json` file.
+  ---
 
 - **Main Evaluation Functions**:
   - **evaluate_explanations**: Evaluates explanations using various metrics for CIViC or R4C datasets (`explanation` task).
+  ---
   - **evaluate_selection_test**: Evaluates explanations for selection tests (`selection` task). Modified `evaluate_explanations` function.
+  ---
   - **evaluate_assignment_test**: Evaluates explanations for assignment tests (`assignment` task). Modified `evaluate_explanations` function.
+  ---
 
 
 The main eval. functions aggregate and calculate multiple metrics for generated explanations and save the results to a JSON file. For more information about each, please refer to the main `report.pdf` or specific function in the `utils.py` file.
@@ -87,14 +107,23 @@ As the metrics evaluate generated text against source text, the following langua
 
 The `auto_tester.py` file defines an `AutomaticTester` class for automatically testing Agents on various tasks. Here's a summary of its main components and functionalities:
 
+---
 - **Initialization**: Accepts agents for solving tasks and retrieving evidence, file paths for input and output, and configuration parameters.
+---
 - **Data Formatting**: Includes methods to format entries from the input file based on the task type (explanation, selection, or assignment).
+---
 - **Question Generation**: Generates and extracts questions related to the given task.
+---
 - **Explanation and Evidence Extraction**: Extracts explanations and evidence (if needed) from generated text for different task types.
+---
 - **Test Running**: The `run_test` method processes entries, optionally uses RAG, solves defined tasks, and extracts results.
+---
 - **RAG Processing**: Generates questions, retrieves relevant evidence, and updates the task entry with unique RAG evidence if enabled.
+---
 - **Result Handling**: Saves the extracted results to the specified output file.
+---
 - **Main Run Method**: Manages the entire testing process, handling different task types and configurations.
+---
 
 This class automates the process of testing different Agents (Base, EXP, COH, etc.) on various tasks, with the flexibility to include RAG and process different types of tasks (explanation, assignment, selection). It provides detailed logging throughout the process for monitoring and debugging.
 
@@ -179,13 +208,21 @@ tester.run_test(task_type=TASK_TYPE, use_rag=BOOLEAN, num_examples=NUM_EXAMPLES)
 However, this class was almost exclusively created for the purposes of automation for this specific project and as such is not very elastic in terms of its use. The following should be respected:
 
 - `sda_agent` must be an instance of the `SelfDiscovery` class (found in `models/`).
+---
 - `rag_agent` must be an instance of the `SelfRag` class (found in `models/`).
+---
 - `input_file_path` should point to one of the 7 testing scenarios in the `data` folder.
+---
 - `output_file_path` can be any path where outputs need to be saved.
+---
 - `num_questions` specifies how many questions the SDA agent will ask the RAG agent.
+---
 - `extract_model` must be an OpenAI LLM, used for Regex assisted answer extraction.
+---
 - `task_type` must be one of the following: `explanation`, `selection`, or `assignment`, must comply with `input_file_path`.
+---
 - `use_rag` can be either `True` or `False`.
+---
 - `num_examples` determines how many examples from the input file to use (applies list slicing like `[:num_examples]`).
 
 For more examples, please see `../outputs/notebooks/` folder and its usage.
