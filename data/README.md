@@ -59,9 +59,11 @@ The `CIVIC` subfolder contains data sourced from the CIVIC database (see main `R
   - **`01-Aug-2024-VariantGroupSummaries.tsv`**: Contains summaries of variant groups.
   - **`01-Aug-2024-VariantSummaries.tsv`**: Contains summaries of variants.
   - **`01-Aug-2024-civic_accepted.vcf`**: A VCF file containing accepted variants **`(UNUSED)`**.
+  ---
 - **`clean/`**: Contains cleaned and processed data files divided into two categories:
   - **`context/`**: Files in this folder have an additional key called `context` that provides additional information.
   - **`no_context/`**: Similar files as in the `context` folder but without the additional `context` key **`(UNUSED)`**.
+  ---
 - **`prep.ipynb`**: Jupyter Notebook used for preparing the data. Already used, but useful if/when data gets updated.
 - **`evidence_kb.json`**: JSON file containing ALL evidence items used across CIVIC test files. Used for RAG.
 
